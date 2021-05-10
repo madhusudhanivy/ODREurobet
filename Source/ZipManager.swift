@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import SSZipArchive
+import SSZipArchive
 
 class ZipManager {
   

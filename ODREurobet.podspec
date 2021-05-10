@@ -45,5 +45,6 @@ For playing inhouse Games
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.dependency 'SSZipArchive'
+  s.dependency 'GCDWebServer', '3.5.3'
   
 end
