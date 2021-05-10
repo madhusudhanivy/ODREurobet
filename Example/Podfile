@@ -3,11 +3,10 @@ use_frameworks!
 platform :ios, '11.0'
 
 target 'ODREurobet_Example' do
-  use_modular_headers!
   pod 'ODREurobet', :path => '../'
 
   pod 'SSZipArchive'
-  pod 'GCDWebServer'
+#  pod 'GCDWebServer'
   
   target 'ODREurobet_Tests' do
     inherit! :search_paths
