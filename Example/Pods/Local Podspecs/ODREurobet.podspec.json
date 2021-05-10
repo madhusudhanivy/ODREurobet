@@ -25,7 +25,7 @@
 
     ],
     "GCDWebServer": [
-      "~> 3.5.3"
+      "3.5.3"
     ]
   },
   "swift_version": "5.0"
