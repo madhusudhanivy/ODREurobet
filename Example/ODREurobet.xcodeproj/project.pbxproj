@@ -42,10 +42,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A38EE82AF483CC06FFC91E50 /* Pods-ODREurobet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODREurobet_Example.debug.xcconfig"; path = "Target Support Files/Pods-ODREurobet_Example/Pods-ODREurobet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B077989D13E0F1D720901A80 /* Pods_ODREurobet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODREurobet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9C8CE0FDE44A8BD17105A19 /* ODREurobet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ODREurobet.podspec; path = ../ODREurobet.podspec; sourceTree = "<group>"; };
+		B9C8CE0FDE44A8BD17105A19 /* ODREurobet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ODREurobet.podspec; path = ../ODREurobet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BDCA355DE8AAAA9CD205C5E3 /* Pods-ODREurobet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODREurobet_Tests.release.xcconfig"; path = "Target Support Files/Pods-ODREurobet_Tests/Pods-ODREurobet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC14B41D53583082D64A7DDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DFF8529E776452F0B742015B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC14B41D53583082D64A7DDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DFF8529E776452F0B742015B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E243CBC542D24C1C0A06C017 /* Pods-ODREurobet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODREurobet_Example.release.xcconfig"; path = "Target Support Files/Pods-ODREurobet_Example/Pods-ODREurobet_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				40E43CD623C8D99CE3D2A14B /* Pods-ODREurobet_Tests.debug.xcconfig */,
 				BDCA355DE8AAAA9CD205C5E3 /* Pods-ODREurobet_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ODREurobet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ODREurobet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

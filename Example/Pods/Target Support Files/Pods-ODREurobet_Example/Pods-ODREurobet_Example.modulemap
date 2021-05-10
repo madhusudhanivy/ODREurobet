@@ -1,0 +1,6 @@
+framework module Pods_ODREurobet_Example {
+  umbrella header "Pods-ODREurobet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

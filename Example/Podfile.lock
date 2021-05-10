@@ -1,0 +1,16 @@
+PODS:
+  - ODREurobet (0.1.0)
+
+DEPENDENCIES:
+  - ODREurobet (from `../`)
+
+EXTERNAL SOURCES:
+  ODREurobet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ODREurobet: 221dc892760e538799f505d688201a80b038c21a
+
+PODFILE CHECKSUM: d25090f69df4fed6a6990aa50b4d88743b06bbc2
+
+COCOAPODS: 1.10.1

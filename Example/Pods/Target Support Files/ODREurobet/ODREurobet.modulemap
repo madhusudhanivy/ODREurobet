@@ -1,0 +1,6 @@
+framework module ODREurobet {
+  umbrella header "ODREurobet-umbrella.h"
+
+  export *
+  module * { export * }
+}
