@@ -1,16 +1,24 @@
 PODS:
-  - ODREurobet (0.1.0)
+  - ODREurobet (0.1.0):
+    - SSZipArchive
+  - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
   - ODREurobet (from `../`)
+  - SSZipArchive
+
+SPEC REPOS:
+  trunk:
+    - SSZipArchive
 
 EXTERNAL SOURCES:
   ODREurobet:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ODREurobet: 221dc892760e538799f505d688201a80b038c21a
+  ODREurobet: f4cd88fe49ffadaee909a346668f368164172e3f
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
-PODFILE CHECKSUM: d25090f69df4fed6a6990aa50b4d88743b06bbc2
+PODFILE CHECKSUM: 59dc6f70d12aa6d474dab566a1af9b1961ee8a81
 
 COCOAPODS: 1.10.1
