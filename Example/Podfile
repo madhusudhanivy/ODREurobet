@@ -6,7 +6,7 @@ target 'ODREurobet_Example' do
   pod 'ODREurobet', :path => '../'
 
   pod 'SSZipArchive'
-#  pod 'GCDWebServer'
+  pod 'GCDWebServer'
   
   target 'ODREurobet_Tests' do
     inherit! :search_paths
