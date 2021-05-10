@@ -8,7 +8,7 @@ PODS:
   - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
-  - GCDWebServer
+  - GCDWebServer (= 3.5.3)
   - ODREurobet (from `../`)
   - SSZipArchive
 
@@ -26,6 +26,6 @@ SPEC CHECKSUMS:
   ODREurobet: 7fffec3ad07c347c800f6d64803b21555853ecab
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
-PODFILE CHECKSUM: 33a3531d175440bd8a073cbe05e88ff97f848bed
+PODFILE CHECKSUM: 275a6865a6d02796b134f0bad9b185a11c27f8d6
 
 COCOAPODS: 1.10.1
