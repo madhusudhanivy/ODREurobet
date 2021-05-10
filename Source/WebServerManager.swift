@@ -10,6 +10,7 @@
 
 import Foundation
 import WebKit
+import GCDWebServer
 
 @objc(WebServerManager)
 class WebServerManager: NSObject {
