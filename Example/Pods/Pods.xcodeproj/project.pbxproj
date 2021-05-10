@@ -7,86 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06CC54C21F1550E684B980525FA77F4B /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9007A2411BC4056438DAAE1691FBA553 /* SSZipArchive.m */; };
-		07354EB447B4785C3CB44D02CC65EE5F /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F937313283EAD90BFC173517B7EA99B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522E5ACE357B5232877A442F49136F15 /* Security.framework */; };
-		1108C489DF0020486DBD003D8BC3D0E3 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		15CC8BC7EA4A79D16DE68EC14216160A /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 137B773281D1784B869061E2702C14AC /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15EE363F04A8C4AE6240061DCF0A0F0D /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = 933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */; };
-		1CB7930A38151F095B2055510FCAAD45 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */; };
-		1E3094073295C41691BFA723D6E3D850 /* Pods-ODREurobet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A686BCEC1BAD6F4AF5043D00C9E8A165 /* Pods-ODREurobet_Example-dummy.m */; };
-		21A1A7101C1E2E7A710178B765010E6D /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = B11E04539D383D452604D2DA13A01732 /* mz_os_posix.c */; };
-		23AD2BFB016A18BF9A7F4EC1780A9BD0 /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = BB05B0CC2B9CE51AD29EB99974D362F0 /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2640C3B5AE708EA914957C13C8A61F39 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */; };
-		26B5C0A141C354552B009AE602C7421D /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C78B2FFEC9AA4E87EDD5EFA1FBF2D14 /* mz_zip_rw.c */; };
-		2E2A77AF17C92290C6C5E4979933FB28 /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3571E273174E05E7581F9EFFD86A7CA3 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F214418C26E50F448F808D370271AC /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3579155BE4206D2594989970B849C92D /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E486B3D9FF57B2177FDA1641B3DBD /* WebServerManager.swift */; };
-		36D07520A12743B81FAB872CA5ED2802 /* ODREurobet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B16DD9910D6A8768D4D44F9E7B5E2B72 /* ODREurobet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E0F1DB434AF496813CD71BB0A978385 /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6A059F42EEDB1CD29AB3AF19549FB8 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4025E0851F24816C2D0438D00C714495 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B27A62ED9E3EEAFB280C28D8F6C1A8B /* GameViewController.swift */; };
-		51A349E507F594B8716DBB29D713CD73 /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 93DC41DB91B5B46929E4C1020333E514 /* mz_crypt.c */; };
-		539584E3396B6C621F4A428C775B0C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F4C6FC7B43C128CF2C6CDD318ED63 /* Foundation.framework */; };
-		54780B3F21FED023EEE57066173697B8 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = F633EF635F24CD8D1246CCA678BFC480 /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		57DAF999E53BCBC7690D63E38A2EE86D /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = 50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5BE5D47C7878C67167796D3397197894 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C59DD68BD854AEB4CF64B527F22BE5A4 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61B78575B06AAF78A297394592FFC6CF /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC3517578BE2DFA5E769FF34BDBDA3 /* ODRManager.swift */; };
-		721A174981C6133B3A7E2B677E5252E3 /* Pods-ODREurobet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F23608A642B5C3A3057E6785C464FC /* Pods-ODREurobet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A0CE71000EE3C4EC72EAE9D9C6C878 /* ViewBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE54DB12648B5A0B05A6D3E85E433B /* ViewBuildManager.swift */; };
-		7808FEA41C95BB6BBD45E0B7EB98B257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F4C6FC7B43C128CF2C6CDD318ED63 /* Foundation.framework */; };
+		035FF24F37CBBB0F557849091C546D83 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC95202DC99CCB18F0ED17859223D0E /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		050C8AC7CB576568709AFDA6F5553257 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FF822181BEA0A233610660310A1AAE /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FF97A30B127DD40F2F39E90AFC49F28 /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0C11846B0ED41D502A73F6AC6EA90 /* mz_os_posix.c */; };
+		10F26BF641E9112C9B4DEB703B63B8CF /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D8D2BEC8AF4D4C1D49364D1D610814 /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11C52C464F820414896BDD0DD1C9AA10 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 795AB43A0A1F998CA80BE606A5A7667E /* GCDWebServerDataResponse.m */; };
+		151430C81A33188722661CFFEE49FDF4 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0BBD9653FC1842C4399EE473B206D /* GCDWebServerFileResponse.m */; };
+		15FC02F057E83A1E3999ADEB2C00DB66 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD403DD6D370B6B0B4AD3077AD68F4A6 /* Security.framework */; };
+		163B6452FDF14ADAB7127F7DA85FC0D5 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = AC2B025D2CC7929E7D96B917164EEE5A /* mz_os.c */; };
+		1D489D2298D9ADE76A1B3EB333141EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
+		1F287FB91DC6F181C94C21D49DFF05D2 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E2DBA4755C417B3A1FA5D61AFBD13C /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2010CB2DF94E3B3847D17BB87D4A5BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
+		2676086A2749D6C2415052FCFB36FBC9 /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A25FF4579942DE87ECBCFAC7140F61 /* mz_compat.c */; };
+		27FD93A1C678007B2AE401B4576DEA08 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 439F656F57C8981F5EA0C1DC57653705 /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D3FF29A45376E46E8F90C317CF97A30 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A72CFA897A7E661BEE11C25D298908CC /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC03C43746FF5F07A3B98F71D6A5B08 /* GCDWebServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A8A7D1C6D5879F890F8795D68B8B12 /* GCDWebServer.framework */; };
+		345A06DA3ED3C8E1483EC4091626F477 /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F798AD41DD53D32D142F1FA11D63775 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		368E32497AA7421EE16406E778538BF4 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E46642252B471D6486D2BEB6E46E365D /* GCDWebServerMultiPartFormRequest.m */; };
+		3A5C2611950A9E062A14069B3493849F /* EmbeddedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B48256F390BB7B352AC5F2DCC721F /* EmbeddedGame.swift */; };
+		3EB20A22CEFEDE29546210E22409332E /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 328EB304D0633C241E1D2FA0F93B5E50 /* mz_strm_wzaes.c */; };
+		4C001B9A68C3944B7F703AC65FC93815 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = D96C6DC82C290BD35006143417D8D124 /* mz_zip_rw.c */; };
+		4FB7269430E328B02B7633AFBDB6343B /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 981DCA2FFDEF23E6E50797E159DA311E /* GCDWebServerErrorResponse.m */; };
+		50AC013A0432A1A22F3D4B6DD6CC9669 /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = C94276CC63DE7E6734AFBFE4EE05220E /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		539584E3396B6C621F4A428C775B0C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
+		56D34EA5CDC265F5EB8F82683F65EF32 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F940F931D769D0F5B6E2901887A59885 /* GCDWebServer-dummy.m */; };
+		58619FCC84C89E4FDDF02185427B4A30 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8524F9C82C4B724583778D89AC83002C /* mz_strm_buf.c */; };
+		610BF848AA1E12C9B5D0FED54CDE8945 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 87E9D592A4DCAB0E879DF564CF40BA65 /* mz_strm_pkcrypt.c */; };
+		68E95974B75938D7FD77101C3CF202DE /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF100E616F4100EFB3EC75797AF8BC5 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BF9DB8C47F72D6C9BCA6782A69D2E64 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330D5EF556CBA6E23EA9FD3BD97A4E2 /* ZipManager.swift */; };
+		6D36768189488D67F89F3F0A50A3567B /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E950FD64D6AFC317BA6880CF2B6303 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECA9F7BA717C8B618DE5D3B5D8A0DBF /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B7C5DB0756AB3006FFED02E47155B /* GCDWebServerRequest.m */; };
+		6EEB776ACB8BF2486B70F7A693207F1B /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 596A7B2C5D2F50474173CDFA6ED615BB /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		716A07F284FB9CAF59EBCA60A55A193F /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 131F3F752FED1D3C8E6C07BAD7C04BE6 /* GCDWebServer.m */; };
+		728AD2F90F22CC9A3C9185E8AA4938E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
+		747C733A7E8039C1AE99FC81F36239EC /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E486B3D9FF57B2177FDA1641B3DBD /* WebServerManager.swift */; };
+		79058DB6826C123FE606E2BEF2677A00 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 79780C45D935CA50A9036BCD1F7757CA /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A1C3106A1EBAF22923B3F02E69739F2 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A19BFE84BAA9BD4975C78C3E3AE45065 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A39F7CFCF173AFB6D8E4BC821875927 /* Pods-ODREurobet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C18FF18D7AB5C2A75F103018EEC28 /* Pods-ODREurobet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AE337105B888BD6B0B251D48EB5D9EA /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		83C274E2E6BE66F476DAD16B847C47AC /* ODREurobet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5085B070B456085039E4118C0506B262 /* ODREurobet-dummy.m */; };
-		858C84561A8FD2C9EC57F9B1E7B138F8 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		87E0714657BF8A37072E44E53E8E2937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F4C6FC7B43C128CF2C6CDD318ED63 /* Foundation.framework */; };
-		8B0EB8BE1C98199CA3BE540BA525BBF0 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8008EB502B945CAF9D29E34B2D8DF7 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A8EAC208A92840B705D20D2F757C727 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */; };
-		9AC49690ECCC0091BBDB74772A88F4C7 /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 6039163DC3583F66F6478C16060E1041 /* mz_compat.c */; };
-		9D35EECB07ADABB4E40376D668719E41 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD772CDC2D01664F4A9518B438FDE9 /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E620EC7BD3DE70D077F17730DE5549C /* EmbeddedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B48256F390BB7B352AC5F2DCC721F /* EmbeddedGame.swift */; };
-		A13993C7744D13EA2FAC0EC24936FBDB /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA7498798162555275E79D6E7C9691F /* SSZipArchive.framework */; };
-		A63432CFE4B06C99F62F4B67FE806FF1 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330D5EF556CBA6E23EA9FD3BD97A4E2 /* ZipManager.swift */; };
+		7F01B50DF234B91D16717C7D0931739F /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = F429A2B953AF3D9BFA3B5971BC7F158D /* mz_crypt_apple.c */; };
+		8561ABA874E2469BF474E73F8E8C06AD /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8DAD5A11EA257E9B64D4F6EEA1CF9B /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		862F9E55EC977ED975CEB16FF946EC18 /* Pods-ODREurobet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A686BCEC1BAD6F4AF5043D00C9E8A165 /* Pods-ODREurobet_Example-dummy.m */; };
+		87233C4F4EFAB65CE74237EE287780EC /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0548F2D89BD812FA7058D298B2AD /* GCDWebServerFileRequest.m */; };
+		873C4DB7F28B30B343708C2760D3407C /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B226D88532798AB97DDCD6E28AB42C8B /* SSZipArchive-dummy.m */; };
+		874D2C4CDE3175C86C4A1CE35ED70320 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D5088A398B5AF30951AF649CBEEC0D /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F23F85F3D96695CB7ED969BC3A6A6C /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9968F45CEEC458CDDB5D16721944667 /* GameManager.swift */; };
+		8CD2F45474A7BB6E3CB4C24D9B5C4F06 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F4054ED84F30BD6DD8965C309011DA25 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947991097D8FA84B0284383CC2F093B6 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC3517578BE2DFA5E769FF34BDBDA3 /* ODRManager.swift */; };
+		9554F920F5CD532F6C1B4BA1DA0F1E3E /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 93941BCAD5B7394100A574D01192C6B9 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967DEB4E4FAE34191930AAA198D8E4AE /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2400D78DD4A13004826EAC16147FDD0B /* SSZipArchive.framework */; };
+		96D8CD5835DDAC4056FE8B3AB001412D /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 198C119174612128CB08E4E8D8E6B5DB /* GCDWebServerResponse.m */; };
+		97484EB83AF9553371B3C21223CE01BB /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = A69CC73B444F219291F7B2A4384C1A54 /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F270BED3F9AFE5FCB790EFCF1DF3123 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D836EE6A4463FBA1FFD327CE163D623 /* mz_strm_mem.c */; };
+		A0033226517415B25AB8A63AD1848609 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DB527161085C183AB676D5AAD597852 /* mz_zip.c */; };
+		A0FA47E2B102E2B513EE3763CF9C6FCC /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2441899ABD62B97A12422AC0CE6EBBC5 /* GCDWebServerStreamedResponse.m */; };
+		A1BCA4B28B4EA05ECA948402605A1028 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2F66EA2F89E97091813C3E15C680D0 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A251D437B3DD41EA95A5ACDEDD53D75F /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E281AC58BAF5E62189BF8101C9ADDC /* GCDWebServerFunctions.m */; };
+		A2D684731D0E1DAC9531AF0DF5ECF8A2 /* Pods-ODREurobet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F23608A642B5C3A3057E6785C464FC /* Pods-ODREurobet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A636F89F7C0E861B6CADD6579E706510 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C50408F9AFE9E0A7E7D854D1A634A059 /* GCDWebServerDataRequest.m */; };
+		A70B7EB426955FCED39E871F43B4ECEA /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = D57C37A6656E385B7869D5221DE5D63D /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAA735AEC8539240D94EC31461C269C2 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8476F59CDA0E28F5363316CC392AB83D /* mz_strm_zlib.c */; };
 		AAFE531825F7D6032D64F3D267B7E71C /* Pods-ODREurobet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88F0E5084736DB09D9C43809D0D9C8 /* Pods-ODREurobet_Tests-dummy.m */; };
-		ACE9F942DFAF67E52A7D060A61E50D2A /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D405B29702C038B9FE41A7A1915BDEA /* mz_strm_mem.c */; };
-		AD159A900BEF84698D67B8664C42C859 /* NativeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9027E6C190D68C2C9FCAC34493B8A /* NativeUtils.swift */; };
-		AFE7926F6AEB3DF70546BF98A0A1D2EF /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */; };
-		BCDAE46779D73EA0AE5AA98BAB0B2218 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9968F45CEEC458CDDB5D16721944667 /* GameManager.swift */; };
-		BFC8610E9F46F5257962A6DF9FA56288 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47706BF8968995F75BF7F217C2CE7D /* SSZipArchive-dummy.m */; };
-		CABF87C660AB2DB440CE0304B5B749E1 /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CFC4FA0E5C2D080E3F8B3D753C61465D /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */; };
-		D4E331F16EFD9B8AB7536360DF05DAAF /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6EFFF08CD6832E90E19AEF48C19711E /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = AF2AE1BDE666EFAFF8B4AE5A6E914C47 /* mz_strm_zlib.c */; };
-		ECD938D039E2BE96F54A1702D6938C0A /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */; };
-		F07B67555CA91CD9C397EBF0D5C33C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F4C6FC7B43C128CF2C6CDD318ED63 /* Foundation.framework */; };
-		F34A1D339B51A434663161C2DC4A8CB9 /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7674699B35DEB3983C62F009CFE06A6 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F968CB357F239D88992AFABD8319C4E3 /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D197E6397C69F9EAE3DD5C30CF1132 /* mz_strm_split.c */; };
-		FBD1A2A27A479E0679689C4DA33CDD03 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */; };
+		B11FA411CE5FDBAB1CF52A992DB0A308 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = B70145FF323BF889D8F83C35EA7EC327 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4616E98D801AD93677397172AAE1E16 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1E19E48A1C60FCF799D21620C4DA1 /* GCDWebServerURLEncodedFormRequest.m */; };
+		B7CD6465DE269DA8C5A08EE3DEBD7952 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C1BF87441B4F95000EA2C82628110E /* CFNetwork.framework */; };
+		B83E2BB0B8D03BCE103C4AC2102A3681 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F66D5260178295124E4795E84EF4BE /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD83FDC39CEFC68FC86DB43E118848B /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E7AEAFCBDA6035012034C854FB9D8F /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE639EED7E490B3E26376A1134DDCEEF /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FA8D3ABFF690B3497794714AF762AF /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7355B0EA3B5C37B97BD157B46E150B3 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = D6CB7484CD8E60964B9CF0EEAD68BCB1 /* mz_strm.c */; };
+		CD6FB1814211F736013540D8ED590475 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AC349AA302B663AF42AE08FA456065 /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD89C59AD85D92075E305632E1DFB8B3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B27A62ED9E3EEAFB280C28D8F6C1A8B /* GameViewController.swift */; };
+		CFC945869C722B862999837F67FF0091 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB7EC3E87EF4FCB81FDCAEBE8D8C3CF /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D0EFD25279342B77749973995BAEB7AA /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5432AF828443D7B55A435FC70C53261D /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2620B5544C397DC8E9BB895FE26AB42 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F7395391193AC7491953A349B76D9F /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D38E909488F9C38FD919AE7DE8111E18 /* NativeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9027E6C190D68C2C9FCAC34493B8A /* NativeUtils.swift */; };
+		D511A5EF1B60CA8675C3F247847224AA /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 459748A6EFA9BE93CA38428A5F0813C7 /* mz_strm_split.c */; };
+		D6FD339FE8F11B5BE8760E62A6146616 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF46F02A26A600BE6A87A0AC26534 /* SSZipArchive.m */; };
+		E0892731D80646EBC9C9D13A061A6D6B /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A92120C2ADD27E97F77D85265386E273 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2CB8F4A1394B8D532E31ACA4F60BE1A /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 852C92ABB47C72ACA247BABBEF00D545 /* mz_crypt.c */; };
+		E4A4651628A9178B931164972DB67AFA /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E46CF24F310EB33214DF39BDC2822C /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5CDD1EF1A1E29C1797B04DC1B4C0AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
+		E762E89332A2F2E869377703D26D9AE1 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C824658E35217D2BA07CF11EB28A21 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5B2C0D3B143E985C684DFDFE751D47 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E0BD1E124BCEA60D9EF2A7D816299F /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA85BEFD1823A3D70E0BA6EB937ABC21 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4FEC106A9F03777FBB6B680F8ED37 /* GCDWebServerConnection.m */; };
+		F3C7E590CABE1D9B23008CBD0F843663 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D1C67F50691E9414C9283C576503EB /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54C7956C6D121D0204C50E25697CDF8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1CC9F0D8A13DAECC672FFD819CBB31 /* MobileCoreServices.framework */; };
+		F7684B8E0B4584392DF47FE8D4F0C02A /* ODREurobet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B16DD9910D6A8768D4D44F9E7B5E2B72 /* ODREurobet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF05D8C6B60E363CCA15B60756B6CCA /* ODREurobet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5085B070B456085039E4118C0506B262 /* ODREurobet-dummy.m */; };
+		FBAC24475A48C28A1DA95E4FFCA8C8CF /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFAFC53CB88D2AEDCDF744188D48FB1 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF5381BBD5A3CFFDD9C8F54F83E79FC0 /* ViewBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE54DB12648B5A0B05A6D3E85E433B /* ViewBuildManager.swift */; };
+		FFD564CC65F884F3F1AB1FBC3A481DC2 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 9869F2A415336BCD518CFEDA806434FB /* mz_strm_os_posix.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10AC2B53086682B08B4FA51627DD1333 /* PBXContainerItemProxy */ = {
+		3467C44A26A0B17B5EFF713D621E412C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9CCFA7CDC78A12E41BD48DA4F4A510A2;
-			remoteInfo = ODREurobet;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
 		};
-		407BA29B9679ECB8ED147B0F8D578FC2 /* PBXContainerItemProxy */ = {
+		3995B3DF0BEE921DBE7FAFDF0CC8F796 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F4560BBC2B9A80E544E9EA492BBCD4EB;
 			remoteInfo = "Pods-ODREurobet_Example";
 		};
-		BC459F59A051A3AB717D939CE79F629B /* PBXContainerItemProxy */ = {
+		4703117C183E415D00E2DCC00D6B465E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
+		};
+		82E09B7134F7339A0A709A10C6DCEBD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
 			remoteInfo = SSZipArchive;
 		};
-		BDE32414D6F3A8D680ED761D105D59DD /* PBXContainerItemProxy */ = {
+		BDBE226E3F99DE46C9EAEE451E4D04F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CCFA7CDC78A12E41BD48DA4F4A510A2;
+			remoteInfo = ODREurobet;
+		};
+		C19AC37BD5E425367A41AFFDDF6CEADC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -96,101 +144,131 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D197E6397C69F9EAE3DD5C30CF1132 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
 		0B27A62ED9E3EEAFB280C28D8F6C1A8B /* GameViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = Source/GameViewController.swift; sourceTree = "<group>"; };
 		0B64B1020C77A75849AAFCAD694D8D97 /* Pods-ODREurobet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODREurobet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C78B2FFEC9AA4E87EDD5EFA1FBF2D14 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
 		0DF5B102A910E1C648D8C014F745E059 /* Pods-ODREurobet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		137B773281D1784B869061E2702C14AC /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
-		19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm.h; path = SSZipArchive/minizip/mz_strm.h; sourceTree = "<group>"; };
+		0EFAFC53CB88D2AEDCDF744188D48FB1 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		131F3F752FED1D3C8E6C07BAD7C04BE6 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		17FF822181BEA0A233610660310A1AAE /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		198C119174612128CB08E4E8D8E6B5DB /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
 		1AC00CBA19D95E0E5BCFF3B3727121D2 /* Pods-ODREurobet_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Example-Info.plist"; sourceTree = "<group>"; };
-		1D405B29702C038B9FE41A7A1915BDEA /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
+		1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1DCE54DB12648B5A0B05A6D3E85E433B /* ViewBuildManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewBuildManager.swift; path = Source/ViewBuildManager.swift; sourceTree = "<group>"; };
 		1E88F0E5084736DB09D9C43809D0D9C8 /* Pods-ODREurobet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ODREurobet_Tests-dummy.m"; sourceTree = "<group>"; };
-		1F47706BF8968995F75BF7F217C2CE7D /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
 		216B00902046725FED61A9999910BD4B /* Pods_ODREurobet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ODREurobet_Tests.framework; path = "Pods-ODREurobet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
+		2400D78DD4A13004826EAC16147FDD0B /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2441899ABD62B97A12422AC0CE6EBBC5 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		29E1E19E48A1C60FCF799D21620C4DA1 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
 		2A59F550F0698F472F7B63A11A5D90F3 /* Pods-ODREurobet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2C8008EB502B945CAF9D29E34B2D8DF7 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
-		3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
-		330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_mem.h; path = SSZipArchive/minizip/mz_strm_mem.h; sourceTree = "<group>"; };
-		3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
+		30E58F62D5DDB3876B75D5C8A6D308C9 /* GCDWebServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCDWebServer-Info.plist"; sourceTree = "<group>"; };
+		328EB304D0633C241E1D2FA0F93B5E50 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
+		32F7395391193AC7491953A349B76D9F /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		37A25FF4579942DE87ECBCFAC7140F61 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
+		3BF100E616F4100EFB3EC75797AF8BC5 /* mz_strm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm.h; path = SSZipArchive/minizip/mz_strm.h; sourceTree = "<group>"; };
 		3CEC3517578BE2DFA5E769FF34BDBDA3 /* ODRManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODRManager.swift; path = Source/ODRManager.swift; sourceTree = "<group>"; };
+		3F2F66EA2F89E97091813C3E15C680D0 /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
 		3F85836389E6886099DA2A83B4FD8A55 /* Pods-ODREurobet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ODREurobet_Example.modulemap"; sourceTree = "<group>"; };
+		439F656F57C8981F5EA0C1DC57653705 /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
 		442B48256F390BB7B352AC5F2DCC721F /* EmbeddedGame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmbeddedGame.swift; path = Source/EmbeddedGame.swift; sourceTree = "<group>"; };
+		459748A6EFA9BE93CA38428A5F0813C7 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
+		47FBFEA15DCD2F98B3E39547646C32D0 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
 		482DC743AFC409797F3A96C7DF01EFDC /* Pods-ODREurobet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		49C3001C05202F2DF73C47BFB1C91DFF /* Pods-ODREurobet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49C30845784A10E65C341E2EAE8EEAB0 /* Pods-ODREurobet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ODREurobet_Tests.modulemap"; sourceTree = "<group>"; };
-		4BE8B8A51FA452FF4595F824B9A03664 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
-		50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
+		4D836EE6A4463FBA1FFD327CE163D623 /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
+		4E053A367EF1D0ED56F3E19F1D2B8DE0 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
 		5085B070B456085039E4118C0506B262 /* ODREurobet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ODREurobet-dummy.m"; sourceTree = "<group>"; };
-		522E5ACE357B5232877A442F49136F15 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		56F214418C26E50F448F808D370271AC /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		53D5088A398B5AF30951AF649CBEEC0D /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		5432AF828443D7B55A435FC70C53261D /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
 		58B5516E609A7E59B88959C97173569D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6039163DC3583F66F6478C16060E1041 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
-		62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
+		596A7B2C5D2F50474173CDFA6ED615BB /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
+		5BF0C11846B0ED41D502A73F6AC6EA90 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
+		5DB527161085C183AB676D5AAD597852 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
+		5EC95202DC99CCB18F0ED17859223D0E /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
 		6330D5EF556CBA6E23EA9FD3BD97A4E2 /* ZipManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipManager.swift; path = Source/ZipManager.swift; sourceTree = "<group>"; };
-		63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
-		64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
+		6339AC1E3A0DB65E2B37166089454A9F /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
 		691AC47F4A4FCD8B712C335E371B3F5B /* Pods-ODREurobet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ODREurobet_Example-frameworks.sh"; sourceTree = "<group>"; };
 		695C652FD39FE2049B4CE42FB07FE556 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
+		6CBEAE0F3B6CEC390E07933F0FB19B15 /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
+		6E1CC9F0D8A13DAECC672FFD819CBB31 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		70F66D5260178295124E4795E84EF4BE /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
 		75E9027E6C190D68C2C9FCAC34493B8A /* NativeUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeUtils.swift; path = Source/NativeUtils.swift; sourceTree = "<group>"; };
-		7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
-		7AE5CF65F73A53BE6A1CAF8C1489BCA3 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		78FA8D3ABFF690B3497794714AF762AF /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
+		795AB43A0A1F998CA80BE606A5A7667E /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		79780C45D935CA50A9036BCD1F7757CA /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		79E7AEAFCBDA6035012034C854FB9D8F /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
 		7C0EA22C0D3DF1080507DD1F85E09CC1 /* ODREurobet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ODREurobet.modulemap; sourceTree = "<group>"; };
-		7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
 		7E3E486B3D9FF57B2177FDA1641B3DBD /* WebServerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServerManager.swift; path = Source/WebServerManager.swift; sourceTree = "<group>"; };
 		7EEB0BAC4CEEB7905016E72F8F1367D0 /* ODREurobet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ODREurobet.framework; path = ODREurobet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
-		80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
+		82E46CF24F310EB33214DF39BDC2822C /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		8476F59CDA0E28F5363316CC392AB83D /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
+		8524F9C82C4B724583778D89AC83002C /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
+		852C92ABB47C72ACA247BABBEF00D545 /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
+		85C824658E35217D2BA07CF11EB28A21 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		87E9D592A4DCAB0E879DF564CF40BA65 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		8BB7EC3E87EF4FCB81FDCAEBE8D8C3CF /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		8CAA0548F2D89BD812FA7058D298B2AD /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
 		8E58AE9BE21E178CEC9A780DDA6A011F /* Pods-ODREurobet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8EE52CEAD3D759D1FD0D6068C783B3E6 /* ODREurobet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ODREurobet-Info.plist"; sourceTree = "<group>"; };
-		9007A2411BC4056438DAAE1691FBA553 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
 		90305345E406D2D57BA58C7E6AA8315E /* ODREurobet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODREurobet-prefix.pch"; sourceTree = "<group>"; };
 		91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
-		93DC41DB91B5B46929E4C1020333E514 /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
+		93941BCAD5B7394100A574D01192C6B9 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		95AC349AA302B663AF42AE08FA456065 /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
+		981DCA2FFDEF23E6E50797E159DA311E /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		9869F2A415336BCD518CFEDA806434FB /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
+		99E950FD64D6AFC317BA6880CF2B6303 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F798AD41DD53D32D142F1FA11D63775 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
+		A19BFE84BAA9BD4975C78C3E3AE45065 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
 		A1F23608A642B5C3A3057E6785C464FC /* Pods-ODREurobet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ODREurobet_Example-umbrella.h"; sourceTree = "<group>"; };
 		A5970D83FC453765DEC270F7A0752C1A /* Pods-ODREurobet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A686BCEC1BAD6F4AF5043D00C9E8A165 /* Pods-ODREurobet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ODREurobet_Example-dummy.m"; sourceTree = "<group>"; };
-		A97F4C6FC7B43C128CF2C6CDD318ED63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A69CC73B444F219291F7B2A4384C1A54 /* mz_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_compat.h; path = SSZipArchive/minizip/mz_compat.h; sourceTree = "<group>"; };
+		A6C1BF87441B4F95000EA2C82628110E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		A72CFA897A7E661BEE11C25D298908CC /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		A92120C2ADD27E97F77D85265386E273 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
 		A9968F45CEEC458CDDB5D16721944667 /* GameManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameManager.swift; path = Source/GameManager.swift; sourceTree = "<group>"; };
 		AA98EDDB6E8555EB9A8A908B0095AF90 /* Pods_ODREurobet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ODREurobet_Example.framework; path = "Pods-ODREurobet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC227BA82FAB6C252A324DF785A2F912 /* Pods-ODREurobet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Tests-Info.plist"; sourceTree = "<group>"; };
-		AF2AE1BDE666EFAFF8B4AE5A6E914C47 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
-		B11E04539D383D452604D2DA13A01732 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
+		AC2B025D2CC7929E7D96B917164EEE5A /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
+		AFFAF46F02A26A600BE6A87A0AC26534 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
 		B16DD9910D6A8768D4D44F9E7B5E2B72 /* ODREurobet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODREurobet-umbrella.h"; sourceTree = "<group>"; };
-		BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_compat.h; path = SSZipArchive/minizip/mz_compat.h; sourceTree = "<group>"; };
-		BB05B0CC2B9CE51AD29EB99974D362F0 /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
-		BCA7498798162555275E79D6E7C9691F /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
+		B226D88532798AB97DDCD6E28AB42C8B /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		B4E0BD1E124BCEA60D9EF2A7D816299F /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		B5C812456FA2205C395EF81445BCF2AD /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70145FF323BF889D8F83C35EA7EC327 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
+		BF9B7C5DB0756AB3006FFED02E47155B /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		C2A8A7D1C6D5879F890F8795D68B8B12 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C426E3EE883702DF98AD0BFD617FB3B7 /* ODREurobet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODREurobet.debug.xcconfig; sourceTree = "<group>"; };
-		C4BC37A4A458488B9734949C67F655DA /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
-		C59DD68BD854AEB4CF64B527F22BE5A4 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
-		D218395C76B4915809B0CC2DDA9B721D /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
+		C50408F9AFE9E0A7E7D854D1A634A059 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		C6450DA1EADB81048261C48A06C9E638 /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
+		C94276CC63DE7E6734AFBFE4EE05220E /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
+		CA8DAD5A11EA257E9B64D4F6EEA1CF9B /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		CD403DD6D370B6B0B4AD3077AD68F4A6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D1E281AC58BAF5E62189BF8101C9ADDC /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
 		D460FF8BB2551FDD730BDED276848390 /* Pods-ODREurobet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODREurobet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF6A059F42EEDB1CD29AB3AF19549FB8 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
-		E3AD772CDC2D01664F4A9518B438FDE9 /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
-		E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		D57C37A6656E385B7869D5221DE5D63D /* mz_strm_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_mem.h; path = SSZipArchive/minizip/mz_strm_mem.h; sourceTree = "<group>"; };
+		D6CB7484CD8E60964B9CF0EEAD68BCB1 /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
+		D96C6DC82C290BD35006143417D8D124 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
+		DADD9DB832229090DAE2CDEA10387A83 /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
+		E1E2DBA4755C417B3A1FA5D61AFBD13C /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		E46642252B471D6486D2BEB6E46E365D /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		E6D8D2BEC8AF4D4C1D49364D1D610814 /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
+		E9F0BBD9653FC1842C4399EE473B206D /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
 		EB49FE02EFE74C28589EFFB17993A335 /* ODREurobet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ODREurobet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECF4FEC106A9F03777FBB6B680F8ED37 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		EE548279AC01046C6183437EA7E42118 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
 		F3C28989CA99B09EB7DB2F45BD06B5F3 /* ODREurobet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODREurobet.release.xcconfig; sourceTree = "<group>"; };
+		F4054ED84F30BD6DD8965C309011DA25 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		F429A2B953AF3D9BFA3B5971BC7F158D /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
 		F43C18FF18D7AB5C2A75F103018EEC28 /* Pods-ODREurobet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ODREurobet_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F633EF635F24CD8D1246CCA678BFC480 /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
-		FEB8CF74030C592600497180DDD2AD1B /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		F8D1C67F50691E9414C9283C576503EB /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		F940F931D769D0F5B6E2901887A59885 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		F981AC67597380D0DBFDFBB12912B310 /* GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24537A5AE34F2C56C52A00D748573A7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7808FEA41C95BB6BBD45E0B7EB98B257 /* Foundation.framework in Frameworks */,
-				0F937313283EAD90BFC173517B7EA99B /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2962F9630C004B73C070CD0F30A54F6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,20 +277,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		806F46AB1AE6F7851961B0B0B9D039EC /* Frameworks */ = {
+		7293CFE89720A8E4834987F242558778 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07B67555CA91CD9C397EBF0D5C33C5E /* Foundation.framework in Frameworks */,
-				A13993C7744D13EA2FAC0EC24936FBDB /* SSZipArchive.framework in Frameworks */,
+				728AD2F90F22CC9A3C9185E8AA4938E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8783A285ED9E6D0CE82D7ADC24464753 /* Frameworks */ = {
+		835562634CFCC069DE5E4BDF8079BFA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87E0714657BF8A37072E44E53E8E2937 /* Foundation.framework in Frameworks */,
+				B7CD6465DE269DA8C5A08EE3DEBD7952 /* CFNetwork.framework in Frameworks */,
+				2010CB2DF94E3B3847D17BB87D4A5BC0 /* Foundation.framework in Frameworks */,
+				F54C7956C6D121D0204C50E25697CDF8 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF177FFF91CE3A92AA6ABE0F85CD9794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5CDD1EF1A1E29C1797B04DC1B4C0AFE /* Foundation.framework in Frameworks */,
+				2DC03C43746FF5F07A3B98F71D6A5B08 /* GCDWebServer.framework in Frameworks */,
+				967DEB4E4FAE34191930AAA198D8E4AE /* SSZipArchive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE96D29D983CCC13F008D5938263D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D489D2298D9ADE76A1B3EB333141EEA /* Foundation.framework in Frameworks */,
+				15FC02F057E83A1E3999ADEB2C00DB66 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,19 +344,14 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		0AB5FDE70D391780CA6ECC202872D4A2 /* Support Files */ = {
+		201037019F2AFEE4D57DB7A7A35FFA12 /* GCDWebServer */ = {
 			isa = PBXGroup;
 			children = (
-				FEB8CF74030C592600497180DDD2AD1B /* SSZipArchive.modulemap */,
-				1F47706BF8968995F75BF7F217C2CE7D /* SSZipArchive-dummy.m */,
-				4BE8B8A51FA452FF4595F824B9A03664 /* SSZipArchive-Info.plist */,
-				7AE5CF65F73A53BE6A1CAF8C1489BCA3 /* SSZipArchive-prefix.pch */,
-				DF6A059F42EEDB1CD29AB3AF19549FB8 /* SSZipArchive-umbrella.h */,
-				D218395C76B4915809B0CC2DDA9B721D /* SSZipArchive.debug.xcconfig */,
-				C4BC37A4A458488B9734949C67F655DA /* SSZipArchive.release.xcconfig */,
+				63E7E90DF4C7C1165E5E036CBA93873D /* Core */,
+				41D8886DB95C3B971195203825AA31F2 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SSZipArchive";
+			name = GCDWebServer;
+			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
 		22003AFD745152B6FE6910AD2D1DD5B5 /* ODREurobet */ = {
@@ -279,41 +372,115 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2ED7C2ECBB6880B09EF5CB4374C8A975 /* iOS */ = {
+		419E2BFA579CD6E523FE79678B14F78A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A97F4C6FC7B43C128CF2C6CDD318ED63 /* Foundation.framework */,
-				522E5ACE357B5232877A442F49136F15 /* Security.framework */,
+				C2A8A7D1C6D5879F890F8795D68B8B12 /* GCDWebServer.framework */,
+				2400D78DD4A13004826EAC16147FDD0B /* SSZipArchive.framework */,
+				DE79BBE525D65A7B6BB26F577552D3C7 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4C2EFC1AA7AA397C59A05B54BB923DDA /* Pods */ = {
+		41D8886DB95C3B971195203825AA31F2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6859DA5AB1BC62C11CE35942847AE21 /* SSZipArchive */,
+				4E053A367EF1D0ED56F3E19F1D2B8DE0 /* GCDWebServer.modulemap */,
+				F940F931D769D0F5B6E2901887A59885 /* GCDWebServer-dummy.m */,
+				30E58F62D5DDB3876B75D5C8A6D308C9 /* GCDWebServer-Info.plist */,
+				EE548279AC01046C6183437EA7E42118 /* GCDWebServer-prefix.pch */,
+				3F2F66EA2F89E97091813C3E15C680D0 /* GCDWebServer-umbrella.h */,
+				F981AC67597380D0DBFDFBB12912B310 /* GCDWebServer.debug.xcconfig */,
+				C6450DA1EADB81048261C48A06C9E638 /* GCDWebServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		4A4FB9E637BDC76D227B4FF79BD093C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				201037019F2AFEE4D57DB7A7A35FFA12 /* GCDWebServer */,
+				602F318072DEEC1EA068BCEEC2FA1AF3 /* SSZipArchive */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5EA9C520ED2D7410F1958F75AD4953B7 /* Products */ = {
+		602F318072DEEC1EA068BCEEC2FA1AF3 /* SSZipArchive */ = {
 			isa = PBXGroup;
 			children = (
-				7EEB0BAC4CEEB7905016E72F8F1367D0 /* ODREurobet.framework */,
-				AA98EDDB6E8555EB9A8A908B0095AF90 /* Pods_ODREurobet_Example.framework */,
-				216B00902046725FED61A9999910BD4B /* Pods_ODREurobet_Tests.framework */,
-				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */,
+				78FA8D3ABFF690B3497794714AF762AF /* mz.h */,
+				37A25FF4579942DE87ECBCFAC7140F61 /* mz_compat.c */,
+				A69CC73B444F219291F7B2A4384C1A54 /* mz_compat.h */,
+				852C92ABB47C72ACA247BABBEF00D545 /* mz_crypt.c */,
+				5432AF828443D7B55A435FC70C53261D /* mz_crypt.h */,
+				F429A2B953AF3D9BFA3B5971BC7F158D /* mz_crypt_apple.c */,
+				AC2B025D2CC7929E7D96B917164EEE5A /* mz_os.c */,
+				79E7AEAFCBDA6035012034C854FB9D8F /* mz_os.h */,
+				5BF0C11846B0ED41D502A73F6AC6EA90 /* mz_os_posix.c */,
+				D6CB7484CD8E60964B9CF0EEAD68BCB1 /* mz_strm.c */,
+				3BF100E616F4100EFB3EC75797AF8BC5 /* mz_strm.h */,
+				8524F9C82C4B724583778D89AC83002C /* mz_strm_buf.c */,
+				E6D8D2BEC8AF4D4C1D49364D1D610814 /* mz_strm_buf.h */,
+				4D836EE6A4463FBA1FFD327CE163D623 /* mz_strm_mem.c */,
+				D57C37A6656E385B7869D5221DE5D63D /* mz_strm_mem.h */,
+				596A7B2C5D2F50474173CDFA6ED615BB /* mz_strm_os.h */,
+				9869F2A415336BCD518CFEDA806434FB /* mz_strm_os_posix.c */,
+				87E9D592A4DCAB0E879DF564CF40BA65 /* mz_strm_pkcrypt.c */,
+				9F798AD41DD53D32D142F1FA11D63775 /* mz_strm_pkcrypt.h */,
+				459748A6EFA9BE93CA38428A5F0813C7 /* mz_strm_split.c */,
+				C94276CC63DE7E6734AFBFE4EE05220E /* mz_strm_split.h */,
+				328EB304D0633C241E1D2FA0F93B5E50 /* mz_strm_wzaes.c */,
+				B70145FF323BF889D8F83C35EA7EC327 /* mz_strm_wzaes.h */,
+				8476F59CDA0E28F5363316CC392AB83D /* mz_strm_zlib.c */,
+				439F656F57C8981F5EA0C1DC57653705 /* mz_strm_zlib.h */,
+				5DB527161085C183AB676D5AAD597852 /* mz_zip.c */,
+				95AC349AA302B663AF42AE08FA456065 /* mz_zip.h */,
+				D96C6DC82C290BD35006143417D8D124 /* mz_zip_rw.c */,
+				5EC95202DC99CCB18F0ED17859223D0E /* mz_zip_rw.h */,
+				85C824658E35217D2BA07CF11EB28A21 /* SSZipArchive.h */,
+				AFFAF46F02A26A600BE6A87A0AC26534 /* SSZipArchive.m */,
+				99E950FD64D6AFC317BA6880CF2B6303 /* SSZipCommon.h */,
+				93941BCAD5B7394100A574D01192C6B9 /* ZipArchive.h */,
+				A09238BFA964DC964F914F0C378BE27B /* Support Files */,
 			);
-			name = Products;
+			name = SSZipArchive;
+			path = SSZipArchive;
 			sourceTree = "<group>";
 		};
-		74F28EA6EEDE177A11829C563AE6FD0D /* Frameworks */ = {
+		63E7E90DF4C7C1165E5E036CBA93873D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				BCA7498798162555275E79D6E7C9691F /* SSZipArchive.framework */,
-				2ED7C2ECBB6880B09EF5CB4374C8A975 /* iOS */,
+				A72CFA897A7E661BEE11C25D298908CC /* GCDWebServer.h */,
+				131F3F752FED1D3C8E6C07BAD7C04BE6 /* GCDWebServer.m */,
+				0EFAFC53CB88D2AEDCDF744188D48FB1 /* GCDWebServerConnection.h */,
+				ECF4FEC106A9F03777FBB6B680F8ED37 /* GCDWebServerConnection.m */,
+				A19BFE84BAA9BD4975C78C3E3AE45065 /* GCDWebServerDataRequest.h */,
+				C50408F9AFE9E0A7E7D854D1A634A059 /* GCDWebServerDataRequest.m */,
+				CA8DAD5A11EA257E9B64D4F6EEA1CF9B /* GCDWebServerDataResponse.h */,
+				795AB43A0A1F998CA80BE606A5A7667E /* GCDWebServerDataResponse.m */,
+				17FF822181BEA0A233610660310A1AAE /* GCDWebServerErrorResponse.h */,
+				981DCA2FFDEF23E6E50797E159DA311E /* GCDWebServerErrorResponse.m */,
+				B4E0BD1E124BCEA60D9EF2A7D816299F /* GCDWebServerFileRequest.h */,
+				8CAA0548F2D89BD812FA7058D298B2AD /* GCDWebServerFileRequest.m */,
+				A92120C2ADD27E97F77D85265386E273 /* GCDWebServerFileResponse.h */,
+				E9F0BBD9653FC1842C4399EE473B206D /* GCDWebServerFileResponse.m */,
+				53D5088A398B5AF30951AF649CBEEC0D /* GCDWebServerFunctions.h */,
+				D1E281AC58BAF5E62189BF8101C9ADDC /* GCDWebServerFunctions.m */,
+				70F66D5260178295124E4795E84EF4BE /* GCDWebServerHTTPStatusCodes.h */,
+				E1E2DBA4755C417B3A1FA5D61AFBD13C /* GCDWebServerMultiPartFormRequest.h */,
+				E46642252B471D6486D2BEB6E46E365D /* GCDWebServerMultiPartFormRequest.m */,
+				8BB7EC3E87EF4FCB81FDCAEBE8D8C3CF /* GCDWebServerPrivate.h */,
+				79780C45D935CA50A9036BCD1F7757CA /* GCDWebServerRequest.h */,
+				BF9B7C5DB0756AB3006FFED02E47155B /* GCDWebServerRequest.m */,
+				F4054ED84F30BD6DD8965C309011DA25 /* GCDWebServerResponse.h */,
+				198C119174612128CB08E4E8D8E6B5DB /* GCDWebServerResponse.m */,
+				32F7395391193AC7491953A349B76D9F /* GCDWebServerStreamedResponse.h */,
+				2441899ABD62B97A12422AC0CE6EBBC5 /* GCDWebServerStreamedResponse.m */,
+				F8D1C67F50691E9414C9283C576503EB /* GCDWebServerURLEncodedFormRequest.h */,
+				29E1E19E48A1C60FCF799D21620C4DA1 /* GCDWebServerURLEncodedFormRequest.m */,
 			);
-			name = Frameworks;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		8A6643A48AE9DD398D3146DB3D3762BF /* Development Pods */ = {
@@ -348,6 +515,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9AC7453444BBF1864229D1661DC32DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */,
+				7EEB0BAC4CEEB7905016E72F8F1367D0 /* ODREurobet.framework */,
+				AA98EDDB6E8555EB9A8A908B0095AF90 /* Pods_ODREurobet_Example.framework */,
+				216B00902046725FED61A9999910BD4B /* Pods_ODREurobet_Tests.framework */,
+				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09238BFA964DC964F914F0C378BE27B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6339AC1E3A0DB65E2B37166089454A9F /* SSZipArchive.modulemap */,
+				B226D88532798AB97DDCD6E28AB42C8B /* SSZipArchive-dummy.m */,
+				47FBFEA15DCD2F98B3E39547646C32D0 /* SSZipArchive-Info.plist */,
+				B5C812456FA2205C395EF81445BCF2AD /* SSZipArchive-prefix.pch */,
+				82E46CF24F310EB33214DF39BDC2822C /* SSZipArchive-umbrella.h */,
+				6CBEAE0F3B6CEC390E07933F0FB19B15 /* SSZipArchive.debug.xcconfig */,
+				DADD9DB832229090DAE2CDEA10387A83 /* SSZipArchive.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
 		BBF2023BD5CC977558EB8210134730D1 /* Pods-ODREurobet_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,71 +563,80 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				8A6643A48AE9DD398D3146DB3D3762BF /* Development Pods */,
-				74F28EA6EEDE177A11829C563AE6FD0D /* Frameworks */,
-				4C2EFC1AA7AA397C59A05B54BB923DDA /* Pods */,
-				5EA9C520ED2D7410F1958F75AD4953B7 /* Products */,
+				419E2BFA579CD6E523FE79678B14F78A /* Frameworks */,
+				4A4FB9E637BDC76D227B4FF79BD093C0 /* Pods */,
+				9AC7453444BBF1864229D1661DC32DA5 /* Products */,
 				90320B31DDD0729F9FBA818A20A8D88D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E6859DA5AB1BC62C11CE35942847AE21 /* SSZipArchive */ = {
+		DE79BBE525D65A7B6BB26F577552D3C7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */,
-				6039163DC3583F66F6478C16060E1041 /* mz_compat.c */,
-				BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */,
-				93DC41DB91B5B46929E4C1020333E514 /* mz_crypt.c */,
-				8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */,
-				BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */,
-				7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */,
-				E3AD772CDC2D01664F4A9518B438FDE9 /* mz_os.h */,
-				B11E04539D383D452604D2DA13A01732 /* mz_os_posix.c */,
-				933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */,
-				19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */,
-				3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */,
-				BB05B0CC2B9CE51AD29EB99974D362F0 /* mz_strm_buf.h */,
-				1D405B29702C038B9FE41A7A1915BDEA /* mz_strm_mem.c */,
-				330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */,
-				62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */,
-				747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */,
-				E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */,
-				7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */,
-				05D197E6397C69F9EAE3DD5C30CF1132 /* mz_strm_split.c */,
-				50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */,
-				247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */,
-				2C8008EB502B945CAF9D29E34B2D8DF7 /* mz_strm_wzaes.h */,
-				AF2AE1BDE666EFAFF8B4AE5A6E914C47 /* mz_strm_zlib.c */,
-				F633EF635F24CD8D1246CCA678BFC480 /* mz_strm_zlib.h */,
-				64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */,
-				80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */,
-				0C78B2FFEC9AA4E87EDD5EFA1FBF2D14 /* mz_zip_rw.c */,
-				3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */,
-				137B773281D1784B869061E2702C14AC /* SSZipArchive.h */,
-				9007A2411BC4056438DAAE1691FBA553 /* SSZipArchive.m */,
-				C59DD68BD854AEB4CF64B527F22BE5A4 /* SSZipCommon.h */,
-				56F214418C26E50F448F808D370271AC /* ZipArchive.h */,
-				0AB5FDE70D391780CA6ECC202872D4A2 /* Support Files */,
+				A6C1BF87441B4F95000EA2C82628110E /* CFNetwork.framework */,
+				1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */,
+				6E1CC9F0D8A13DAECC672FFD819CBB31 /* MobileCoreServices.framework */,
+				CD403DD6D370B6B0B4AD3077AD68F4A6 /* Security.framework */,
 			);
-			name = SSZipArchive;
-			path = SSZipArchive;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3BC170C7481F172323BFB5B6AF79B80E /* Headers */ = {
+		37688F7EF0832D80DF4C4505AF9C5A22 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721A174981C6133B3A7E2B677E5252E3 /* Pods-ODREurobet_Example-umbrella.h in Headers */,
+				F7684B8E0B4584392DF47FE8D4F0C02A /* ODREurobet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59AF89602BD91FA3DDECED437F34470E /* Headers */ = {
+		783B07C45708719EE6427C6C493277C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D07520A12743B81FAB872CA5ED2802 /* ODREurobet-umbrella.h in Headers */,
+				A1BCA4B28B4EA05ECA948402605A1028 /* GCDWebServer-umbrella.h in Headers */,
+				2D3FF29A45376E46E8F90C317CF97A30 /* GCDWebServer.h in Headers */,
+				FBAC24475A48C28A1DA95E4FFCA8C8CF /* GCDWebServerConnection.h in Headers */,
+				7A1C3106A1EBAF22923B3F02E69739F2 /* GCDWebServerDataRequest.h in Headers */,
+				8561ABA874E2469BF474E73F8E8C06AD /* GCDWebServerDataResponse.h in Headers */,
+				050C8AC7CB576568709AFDA6F5553257 /* GCDWebServerErrorResponse.h in Headers */,
+				EA5B2C0D3B143E985C684DFDFE751D47 /* GCDWebServerFileRequest.h in Headers */,
+				E0892731D80646EBC9C9D13A061A6D6B /* GCDWebServerFileResponse.h in Headers */,
+				874D2C4CDE3175C86C4A1CE35ED70320 /* GCDWebServerFunctions.h in Headers */,
+				B83E2BB0B8D03BCE103C4AC2102A3681 /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				1F287FB91DC6F181C94C21D49DFF05D2 /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				CFC945869C722B862999837F67FF0091 /* GCDWebServerPrivate.h in Headers */,
+				79058DB6826C123FE606E2BEF2677A00 /* GCDWebServerRequest.h in Headers */,
+				8CD2F45474A7BB6E3CB4C24D9B5C4F06 /* GCDWebServerResponse.h in Headers */,
+				D2620B5544C397DC8E9BB895FE26AB42 /* GCDWebServerStreamedResponse.h in Headers */,
+				F3C7E590CABE1D9B23008CBD0F843663 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB5A1568D85212A008B6BF61F34A764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE639EED7E490B3E26376A1134DDCEEF /* mz.h in Headers */,
+				97484EB83AF9553371B3C21223CE01BB /* mz_compat.h in Headers */,
+				D0EFD25279342B77749973995BAEB7AA /* mz_crypt.h in Headers */,
+				BAD83FDC39CEFC68FC86DB43E118848B /* mz_os.h in Headers */,
+				68E95974B75938D7FD77101C3CF202DE /* mz_strm.h in Headers */,
+				10F26BF641E9112C9B4DEB703B63B8CF /* mz_strm_buf.h in Headers */,
+				A70B7EB426955FCED39E871F43B4ECEA /* mz_strm_mem.h in Headers */,
+				6EEB776ACB8BF2486B70F7A693207F1B /* mz_strm_os.h in Headers */,
+				345A06DA3ED3C8E1483EC4091626F477 /* mz_strm_pkcrypt.h in Headers */,
+				50AC013A0432A1A22F3D4B6DD6CC9669 /* mz_strm_split.h in Headers */,
+				B11FA411CE5FDBAB1CF52A992DB0A308 /* mz_strm_wzaes.h in Headers */,
+				27FD93A1C678007B2AE401B4576DEA08 /* mz_strm_zlib.h in Headers */,
+				CD6FB1814211F736013540D8ED590475 /* mz_zip.h in Headers */,
+				035FF24F37CBBB0F557849091C546D83 /* mz_zip_rw.h in Headers */,
+				E4A4651628A9178B931164972DB67AFA /* SSZipArchive-umbrella.h in Headers */,
+				E762E89332A2F2E869377703D26D9AE1 /* SSZipArchive.h in Headers */,
+				6D36768189488D67F89F3F0A50A3567B /* SSZipCommon.h in Headers */,
+				9554F920F5CD532F6C1B4BA1DA0F1E3E /* ZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,28 +648,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECCF2047605CC25BADAB2B62F7174808 /* Headers */ = {
+		C9199A8A95F2CDEE2CAE43B6C0BBD38C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1108C489DF0020486DBD003D8BC3D0E3 /* mz.h in Headers */,
-				2E2A77AF17C92290C6C5E4979933FB28 /* mz_compat.h in Headers */,
-				F7674699B35DEB3983C62F009CFE06A6 /* mz_crypt.h in Headers */,
-				9D35EECB07ADABB4E40376D668719E41 /* mz_os.h in Headers */,
-				F34A1D339B51A434663161C2DC4A8CB9 /* mz_strm.h in Headers */,
-				23AD2BFB016A18BF9A7F4EC1780A9BD0 /* mz_strm_buf.h in Headers */,
-				07354EB447B4785C3CB44D02CC65EE5F /* mz_strm_mem.h in Headers */,
-				CABF87C660AB2DB440CE0304B5B749E1 /* mz_strm_os.h in Headers */,
-				D4E331F16EFD9B8AB7536360DF05DAAF /* mz_strm_pkcrypt.h in Headers */,
-				57DAF999E53BCBC7690D63E38A2EE86D /* mz_strm_split.h in Headers */,
-				8B0EB8BE1C98199CA3BE540BA525BBF0 /* mz_strm_wzaes.h in Headers */,
-				54780B3F21FED023EEE57066173697B8 /* mz_strm_zlib.h in Headers */,
-				7AE337105B888BD6B0B251D48EB5D9EA /* mz_zip.h in Headers */,
-				858C84561A8FD2C9EC57F9B1E7B138F8 /* mz_zip_rw.h in Headers */,
-				3E0F1DB434AF496813CD71BB0A978385 /* SSZipArchive-umbrella.h in Headers */,
-				15CC8BC7EA4A79D16DE68EC14216160A /* SSZipArchive.h in Headers */,
-				5BE5D47C7878C67167796D3397197894 /* SSZipCommon.h in Headers */,
-				3571E273174E05E7581F9EFFD86A7CA3 /* ZipArchive.h in Headers */,
+				A2D684731D0E1DAC9531AF0DF5ECF8A2 /* Pods-ODREurobet_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,21 +661,40 @@
 /* Begin PBXNativeTarget section */
 		9CCFA7CDC78A12E41BD48DA4F4A510A2 /* ODREurobet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F907D815DF1B36378D221CEAF838690B /* Build configuration list for PBXNativeTarget "ODREurobet" */;
+			buildConfigurationList = EA974BA5286168962F3FA01951D12E33 /* Build configuration list for PBXNativeTarget "ODREurobet" */;
 			buildPhases = (
-				59AF89602BD91FA3DDECED437F34470E /* Headers */,
-				38C9112DFE3F468EC1C53F4E4E4B2DB9 /* Sources */,
-				806F46AB1AE6F7851961B0B0B9D039EC /* Frameworks */,
-				695603C8E390B8913B7A19C595F0C015 /* Resources */,
+				37688F7EF0832D80DF4C4505AF9C5A22 /* Headers */,
+				0FE54AAAB23CA6DAAD4D362E86DD8430 /* Sources */,
+				BF177FFF91CE3A92AA6ABE0F85CD9794 /* Frameworks */,
+				7E87F1E77C0BEA7770D00D4593C75664 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D14CA3221BBAD7D98CC402F3D45C1062 /* PBXTargetDependency */,
+				9E667A2B0B699DF338DDE0942A1D53E0 /* PBXTargetDependency */,
+				167182EF00C456CFBDD771E5B904684A /* PBXTargetDependency */,
 			);
 			name = ODREurobet;
 			productName = ODREurobet;
 			productReference = 7EEB0BAC4CEEB7905016E72F8F1367D0 /* ODREurobet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F24F7AC8E63D1B38C1EA9858640ACD1 /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				783B07C45708719EE6427C6C493277C4 /* Headers */,
+				94DCDC7484110A42E463967BB803A38F /* Sources */,
+				835562634CFCC069DE5E4BDF8079BFA0 /* Frameworks */,
+				F68A16AACD306BB6792B7D78E8D318A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DAE49C398B327F67EAFE1FE827721D80 /* Pods-ODREurobet_Tests */ = {
@@ -504,7 +709,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E34BCD4E4C0725551E8B42C058EF4815 /* PBXTargetDependency */,
+				46CFD1FFA8512B6608F26DC3631A3D36 /* PBXTargetDependency */,
 			);
 			name = "Pods-ODREurobet_Tests";
 			productName = "Pods-ODREurobet_Tests";
@@ -513,18 +718,19 @@
 		};
 		F4560BBC2B9A80E544E9EA492BBCD4EB /* Pods-ODREurobet_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 957D9274098394E64A58CF7CE7EB4A92 /* Build configuration list for PBXNativeTarget "Pods-ODREurobet_Example" */;
+			buildConfigurationList = C394B3CF7F0DEE4B1159ABDC1180AB34 /* Build configuration list for PBXNativeTarget "Pods-ODREurobet_Example" */;
 			buildPhases = (
-				3BC170C7481F172323BFB5B6AF79B80E /* Headers */,
-				C2802D589766EFDD98A6A79ABD8A4331 /* Sources */,
-				8783A285ED9E6D0CE82D7ADC24464753 /* Frameworks */,
-				4A994F3DCA25AC4D4929DAAE7D630D6D /* Resources */,
+				C9199A8A95F2CDEE2CAE43B6C0BBD38C /* Headers */,
+				E65893A873E1A6AC7A94965A373329A7 /* Sources */,
+				7293CFE89720A8E4834987F242558778 /* Frameworks */,
+				967FCFEB3F58BD48CEEDE923F3C4D4DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9027C776303E71E2BFC62823417E7772 /* PBXTargetDependency */,
-				E7E8B59C71C7381F8C48CED1F5A8269E /* PBXTargetDependency */,
+				F4BA5889A5C2A5B7E949A261F3694B33 /* PBXTargetDependency */,
+				DFC25BCAA0728E7C52B61AEAD5A5BCC2 /* PBXTargetDependency */,
+				AF9C9BEFEDA100DFD0F8D2D242B18224 /* PBXTargetDependency */,
 			);
 			name = "Pods-ODREurobet_Example";
 			productName = "Pods-ODREurobet_Example";
@@ -533,12 +739,12 @@
 		};
 		F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AC728BFE0C843E2034B63D48A9A61F6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildConfigurationList = 131FE3C842E0DEF253CCE5FE0BD86CC6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
 			buildPhases = (
-				ECCF2047605CC25BADAB2B62F7174808 /* Headers */,
-				5783E812CDE7CC493CDC37BE91AAAC83 /* Sources */,
-				24537A5AE34F2C56C52A00D748573A7B /* Frameworks */,
-				2411FF4E767A6518A52E2338341FBBC1 /* Resources */,
+				8CB5A1568D85212A008B6BF61F34A764 /* Headers */,
+				6C82831653ECCDBBF4C160EBC809C708 /* Sources */,
+				CAE96D29D983CCC13F008D5938263D65 /* Frameworks */,
+				2B9ABC34C853B892DC3AF74F5C1F7B47 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -567,10 +773,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5EA9C520ED2D7410F1958F75AD4953B7 /* Products */;
+			productRefGroup = 9AC7453444BBF1864229D1661DC32DA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */,
 				9CCFA7CDC78A12E41BD48DA4F4A510A2 /* ODREurobet */,
 				F4560BBC2B9A80E544E9EA492BBCD4EB /* Pods-ODREurobet_Example */,
 				DAE49C398B327F67EAFE1FE827721D80 /* Pods-ODREurobet_Tests */,
@@ -580,21 +787,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2411FF4E767A6518A52E2338341FBBC1 /* Resources */ = {
+		2B9ABC34C853B892DC3AF74F5C1F7B47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A994F3DCA25AC4D4929DAAE7D630D6D /* Resources */ = {
+		7E87F1E77C0BEA7770D00D4593C75664 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		695603C8E390B8913B7A19C595F0C015 /* Resources */ = {
+		967FCFEB3F58BD48CEEDE923F3C4D4DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -608,54 +815,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F68A16AACD306BB6792B7D78E8D318A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38C9112DFE3F468EC1C53F4E4E4B2DB9 /* Sources */ = {
+		0FE54AAAB23CA6DAAD4D362E86DD8430 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E620EC7BD3DE70D077F17730DE5549C /* EmbeddedGame.swift in Sources */,
-				BCDAE46779D73EA0AE5AA98BAB0B2218 /* GameManager.swift in Sources */,
-				4025E0851F24816C2D0438D00C714495 /* GameViewController.swift in Sources */,
-				AD159A900BEF84698D67B8664C42C859 /* NativeUtils.swift in Sources */,
-				83C274E2E6BE66F476DAD16B847C47AC /* ODREurobet-dummy.m in Sources */,
-				61B78575B06AAF78A297394592FFC6CF /* ODRManager.swift in Sources */,
-				75A0CE71000EE3C4EC72EAE9D9C6C878 /* ViewBuildManager.swift in Sources */,
-				3579155BE4206D2594989970B849C92D /* WebServerManager.swift in Sources */,
-				A63432CFE4B06C99F62F4B67FE806FF1 /* ZipManager.swift in Sources */,
+				3A5C2611950A9E062A14069B3493849F /* EmbeddedGame.swift in Sources */,
+				87F23F85F3D96695CB7ED969BC3A6A6C /* GameManager.swift in Sources */,
+				CD89C59AD85D92075E305632E1DFB8B3 /* GameViewController.swift in Sources */,
+				D38E909488F9C38FD919AE7DE8111E18 /* NativeUtils.swift in Sources */,
+				FAF05D8C6B60E363CCA15B60756B6CCA /* ODREurobet-dummy.m in Sources */,
+				947991097D8FA84B0284383CC2F093B6 /* ODRManager.swift in Sources */,
+				FF5381BBD5A3CFFDD9C8F54F83E79FC0 /* ViewBuildManager.swift in Sources */,
+				747C733A7E8039C1AE99FC81F36239EC /* WebServerManager.swift in Sources */,
+				6BF9DB8C47F72D6C9BCA6782A69D2E64 /* ZipManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5783E812CDE7CC493CDC37BE91AAAC83 /* Sources */ = {
+		6C82831653ECCDBBF4C160EBC809C708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC49690ECCC0091BBDB74772A88F4C7 /* mz_compat.c in Sources */,
-				51A349E507F594B8716DBB29D713CD73 /* mz_crypt.c in Sources */,
-				ECD938D039E2BE96F54A1702D6938C0A /* mz_crypt_apple.c in Sources */,
-				1CB7930A38151F095B2055510FCAAD45 /* mz_os.c in Sources */,
-				21A1A7101C1E2E7A710178B765010E6D /* mz_os_posix.c in Sources */,
-				15EE363F04A8C4AE6240061DCF0A0F0D /* mz_strm.c in Sources */,
-				9A8EAC208A92840B705D20D2F757C727 /* mz_strm_buf.c in Sources */,
-				ACE9F942DFAF67E52A7D060A61E50D2A /* mz_strm_mem.c in Sources */,
-				AFE7926F6AEB3DF70546BF98A0A1D2EF /* mz_strm_os_posix.c in Sources */,
-				FBD1A2A27A479E0679689C4DA33CDD03 /* mz_strm_pkcrypt.c in Sources */,
-				F968CB357F239D88992AFABD8319C4E3 /* mz_strm_split.c in Sources */,
-				2640C3B5AE708EA914957C13C8A61F39 /* mz_strm_wzaes.c in Sources */,
-				E6EFFF08CD6832E90E19AEF48C19711E /* mz_strm_zlib.c in Sources */,
-				CFC4FA0E5C2D080E3F8B3D753C61465D /* mz_zip.c in Sources */,
-				26B5C0A141C354552B009AE602C7421D /* mz_zip_rw.c in Sources */,
-				BFC8610E9F46F5257962A6DF9FA56288 /* SSZipArchive-dummy.m in Sources */,
-				06CC54C21F1550E684B980525FA77F4B /* SSZipArchive.m in Sources */,
+				2676086A2749D6C2415052FCFB36FBC9 /* mz_compat.c in Sources */,
+				E2CB8F4A1394B8D532E31ACA4F60BE1A /* mz_crypt.c in Sources */,
+				7F01B50DF234B91D16717C7D0931739F /* mz_crypt_apple.c in Sources */,
+				163B6452FDF14ADAB7127F7DA85FC0D5 /* mz_os.c in Sources */,
+				0FF97A30B127DD40F2F39E90AFC49F28 /* mz_os_posix.c in Sources */,
+				C7355B0EA3B5C37B97BD157B46E150B3 /* mz_strm.c in Sources */,
+				58619FCC84C89E4FDDF02185427B4A30 /* mz_strm_buf.c in Sources */,
+				9F270BED3F9AFE5FCB790EFCF1DF3123 /* mz_strm_mem.c in Sources */,
+				FFD564CC65F884F3F1AB1FBC3A481DC2 /* mz_strm_os_posix.c in Sources */,
+				610BF848AA1E12C9B5D0FED54CDE8945 /* mz_strm_pkcrypt.c in Sources */,
+				D511A5EF1B60CA8675C3F247847224AA /* mz_strm_split.c in Sources */,
+				3EB20A22CEFEDE29546210E22409332E /* mz_strm_wzaes.c in Sources */,
+				AAA735AEC8539240D94EC31461C269C2 /* mz_strm_zlib.c in Sources */,
+				A0033226517415B25AB8A63AD1848609 /* mz_zip.c in Sources */,
+				4C001B9A68C3944B7F703AC65FC93815 /* mz_zip_rw.c in Sources */,
+				873C4DB7F28B30B343708C2760D3407C /* SSZipArchive-dummy.m in Sources */,
+				D6FD339FE8F11B5BE8760E62A6146616 /* SSZipArchive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2802D589766EFDD98A6A79ABD8A4331 /* Sources */ = {
+		94DCDC7484110A42E463967BB803A38F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3094073295C41691BFA723D6E3D850 /* Pods-ODREurobet_Example-dummy.m in Sources */,
+				56D34EA5CDC265F5EB8F82683F65EF32 /* GCDWebServer-dummy.m in Sources */,
+				716A07F284FB9CAF59EBCA60A55A193F /* GCDWebServer.m in Sources */,
+				EA85BEFD1823A3D70E0BA6EB937ABC21 /* GCDWebServerConnection.m in Sources */,
+				A636F89F7C0E861B6CADD6579E706510 /* GCDWebServerDataRequest.m in Sources */,
+				11C52C464F820414896BDD0DD1C9AA10 /* GCDWebServerDataResponse.m in Sources */,
+				4FB7269430E328B02B7633AFBDB6343B /* GCDWebServerErrorResponse.m in Sources */,
+				87233C4F4EFAB65CE74237EE287780EC /* GCDWebServerFileRequest.m in Sources */,
+				151430C81A33188722661CFFEE49FDF4 /* GCDWebServerFileResponse.m in Sources */,
+				A251D437B3DD41EA95A5ACDEDD53D75F /* GCDWebServerFunctions.m in Sources */,
+				368E32497AA7421EE16406E778538BF4 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				6ECA9F7BA717C8B618DE5D3B5D8A0DBF /* GCDWebServerRequest.m in Sources */,
+				96D8CD5835DDAC4056FE8B3AB001412D /* GCDWebServerResponse.m in Sources */,
+				A0FA47E2B102E2B513EE3763CF9C6FCC /* GCDWebServerStreamedResponse.m in Sources */,
+				B4616E98D801AD93677397172AAE1E16 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,60 +894,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E65893A873E1A6AC7A94965A373329A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862F9E55EC977ED975CEB16FF946EC18 /* Pods-ODREurobet_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9027C776303E71E2BFC62823417E7772 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ODREurobet;
-			target = 9CCFA7CDC78A12E41BD48DA4F4A510A2 /* ODREurobet */;
-			targetProxy = 10AC2B53086682B08B4FA51627DD1333 /* PBXContainerItemProxy */;
-		};
-		D14CA3221BBAD7D98CC402F3D45C1062 /* PBXTargetDependency */ = {
+		167182EF00C456CFBDD771E5B904684A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSZipArchive;
 			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
-			targetProxy = BC459F59A051A3AB717D939CE79F629B /* PBXContainerItemProxy */;
+			targetProxy = C19AC37BD5E425367A41AFFDDF6CEADC /* PBXContainerItemProxy */;
 		};
-		E34BCD4E4C0725551E8B42C058EF4815 /* PBXTargetDependency */ = {
+		46CFD1FFA8512B6608F26DC3631A3D36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ODREurobet_Example";
 			target = F4560BBC2B9A80E544E9EA492BBCD4EB /* Pods-ODREurobet_Example */;
-			targetProxy = 407BA29B9679ECB8ED147B0F8D578FC2 /* PBXContainerItemProxy */;
+			targetProxy = 3995B3DF0BEE921DBE7FAFDF0CC8F796 /* PBXContainerItemProxy */;
 		};
-		E7E8B59C71C7381F8C48CED1F5A8269E /* PBXTargetDependency */ = {
+		9E667A2B0B699DF338DDE0942A1D53E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = 3467C44A26A0B17B5EFF713D621E412C /* PBXContainerItemProxy */;
+		};
+		AF9C9BEFEDA100DFD0F8D2D242B18224 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSZipArchive;
 			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
-			targetProxy = BDE32414D6F3A8D680ED761D105D59DD /* PBXContainerItemProxy */;
+			targetProxy = 82E09B7134F7339A0A709A10C6DCEBD1 /* PBXContainerItemProxy */;
+		};
+		DFC25BCAA0728E7C52B61AEAD5A5BCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ODREurobet;
+			target = 9CCFA7CDC78A12E41BD48DA4F4A510A2 /* ODREurobet */;
+			targetProxy = BDBE226E3F99DE46C9EAEE451E4D04F5 /* PBXContainerItemProxy */;
+		};
+		F4BA5889A5C2A5B7E949A261F3694B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = 4703117C183E415D00E2DCC00D6B465E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15A6E99A5CACE99AFC12EA9745756AB5 /* Release */ = {
+		02F258F2FF0DD2A8BFD427EC6106BA6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4BC37A4A458488B9734949C67F655DA /* SSZipArchive.release.xcconfig */;
+			baseConfigurationReference = F3C28989CA99B09EB7DB2F45BD06B5F3 /* ODREurobet.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ODREurobet/ODREurobet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ODREurobet/ODREurobet-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
-				PRODUCT_MODULE_NAME = SSZipArchive;
-				PRODUCT_NAME = SSZipArchive;
+				MODULEMAP_FILE = "Target Support Files/ODREurobet/ODREurobet.modulemap";
+				PRODUCT_MODULE_NAME = ODREurobet;
+				PRODUCT_NAME = ODREurobet;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -728,7 +977,7 @@
 			};
 			name = Release;
 		};
-		23550098C0FAF985DB20C5B38171C29F /* Debug */ = {
+		15E3DCB3EB8E3071CA5F76AA67652C71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 482DC743AFC409797F3A96C7DF01EFDC /* Pods-ODREurobet_Example.debug.xcconfig */;
 			buildSettings = {
@@ -762,7 +1011,7 @@
 			};
 			name = Debug;
 		};
-		39DB2CC8C29CA8FB585D013F399DC339 /* Debug */ = {
+		3C43CC8344797E9B06340AFF6E158E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C426E3EE883702DF98AD0BFD617FB3B7 /* ODREurobet.debug.xcconfig */;
 			buildSettings = {
@@ -829,34 +1078,60 @@
 			};
 			name = Release;
 		};
-		8CCE5CBDE768F70A5AB017CD9072D1C9 /* Release */ = {
+		70D133E35388FD716C675C99753487E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A59F550F0698F472F7B63A11A5D90F3 /* Pods-ODREurobet_Example.release.xcconfig */;
+			baseConfigurationReference = 6CBEAE0F3B6CEC390E07933F0FB19B15 /* SSZipArchive.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ODREurobet_Example/Pods-ODREurobet_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ODREurobet_Example/Pods-ODREurobet_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7452756D38631D64014DA859A105AC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADD9DB832229090DAE2CDEA10387A83 /* SSZipArchive.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1026,40 +1301,11 @@
 			};
 			name = Debug;
 		};
-		C2F48E5A410A2C36281FCC20557E2B82 /* Debug */ = {
+		CD4686F99B11770E30E9CE3F34F8EF64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D218395C76B4915809B0CC2DDA9B721D /* SSZipArchive.debug.xcconfig */;
+			baseConfigurationReference = 2A59F550F0698F472F7B63A11A5D90F3 /* Pods-ODREurobet_Example.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
-				PRODUCT_MODULE_NAME = SSZipArchive;
-				PRODUCT_NAME = SSZipArchive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED1C76A07E969CDF4F64D8996FDF1F54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3C28989CA99B09EB7DB2F45BD06B5F3 /* ODREurobet.release.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1070,18 +1316,82 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ODREurobet/ODREurobet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ODREurobet/ODREurobet-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ODREurobet_Example/Pods-ODREurobet_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ODREurobet/ODREurobet.modulemap";
-				PRODUCT_MODULE_NAME = ODREurobet;
-				PRODUCT_NAME = ODREurobet;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ODREurobet_Example/Pods-ODREurobet_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E748C5F48FCFF3A1F51E8031DBF0BBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F981AC67597380D0DBFDFBB12912B310 /* GCDWebServer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F64D077CCCDF32190EBA767781593778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6450DA1EADB81048261C48A06C9E638 /* GCDWebServer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1092,6 +1402,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		131FE3C842E0DEF253CCE5FE0BD86CC6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D133E35388FD716C675C99753487E7 /* Debug */,
+				7452756D38631D64014DA859A105AC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F24F7AC8E63D1B38C1EA9858640ACD1 /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E748C5F48FCFF3A1F51E8031DBF0BBFC /* Debug */,
+				F64D077CCCDF32190EBA767781593778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1110,29 +1438,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AC728BFE0C843E2034B63D48A9A61F6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+		C394B3CF7F0DEE4B1159ABDC1180AB34 /* Build configuration list for PBXNativeTarget "Pods-ODREurobet_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2F48E5A410A2C36281FCC20557E2B82 /* Debug */,
-				15A6E99A5CACE99AFC12EA9745756AB5 /* Release */,
+				15E3DCB3EB8E3071CA5F76AA67652C71 /* Debug */,
+				CD4686F99B11770E30E9CE3F34F8EF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		957D9274098394E64A58CF7CE7EB4A92 /* Build configuration list for PBXNativeTarget "Pods-ODREurobet_Example" */ = {
+		EA974BA5286168962F3FA01951D12E33 /* Build configuration list for PBXNativeTarget "ODREurobet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23550098C0FAF985DB20C5B38171C29F /* Debug */,
-				8CCE5CBDE768F70A5AB017CD9072D1C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F907D815DF1B36378D221CEAF838690B /* Build configuration list for PBXNativeTarget "ODREurobet" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39DB2CC8C29CA8FB585D013F399DC339 /* Debug */,
-				ED1C76A07E969CDF4F64D8996FDF1F54 /* Release */,
+				3C43CC8344797E9B06340AFF6E158E4B /* Debug */,
+				02F258F2FF0DD2A8BFD427EC6106BA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
