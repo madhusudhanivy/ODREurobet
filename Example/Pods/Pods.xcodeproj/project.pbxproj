@@ -17,6 +17,7 @@
 		AAFE531825F7D6032D64F3D267B7E71C /* Pods-ODREurobet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88F0E5084736DB09D9C43809D0D9C8 /* Pods-ODREurobet_Tests-dummy.m */; };
 		BBDAFA7E8CAC4E0F7DDEF7A982FCC8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C37A3A88264995E800823358 /* NativeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A87264995E800823358 /* NativeUtils.swift */; };
+		C37A3A8A26499CE100823358 /* EmbeddedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A8926499CE100823358 /* EmbeddedGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		B634AFD4E09A1E3BF587D5478D1C4B61 /* ODREurobet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODREurobet.release.xcconfig; sourceTree = "<group>"; };
 		B988DD6A5B40B3D9BB14A60D0D794731 /* ODREurobet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODREurobet-umbrella.h"; sourceTree = "<group>"; };
 		C37A3A87264995E800823358 /* NativeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeUtils.swift; sourceTree = "<group>"; };
+		C37A3A8926499CE100823358 /* EmbeddedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedGame.swift; sourceTree = "<group>"; };
 		D460FF8BB2551FDD730BDED276848390 /* Pods-ODREurobet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODREurobet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D7C336EE75D146C2A5F3C3849E46D46C /* ODREurobet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ODREurobet.modulemap; sourceTree = "<group>"; };
 		D8E6B4551A69EB5C61AE11832ECC7D4C /* ODREurobet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ODREurobet-Info.plist"; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				C37A3A87264995E800823358 /* NativeUtils.swift */,
+				C37A3A8926499CE100823358 /* EmbeddedGame.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			files = (
 				C37A3A88264995E800823358 /* NativeUtils.swift in Sources */,
 				5330C1AF697984E972CC183FAEA308D4 /* ODREurobet-dummy.m in Sources */,
+				C37A3A8A26499CE100823358 /* EmbeddedGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
