@@ -10,7 +10,7 @@
 
 import Foundation
 import WebKit
-//import GCDWebServer
+import GCDWebServer
 
 @objc(WebServerManager)
 class WebServerManager: NSObject {
@@ -21,7 +21,7 @@ class WebServerManager: NSObject {
     case Stopped
     case Running
   }
-//  private var webServer: GCDWebServer = GCDWebServer()
+  private var webServer: GCDWebServer = GCDWebServer()
 
   var port: UInt = 8080
   var webServerIndexFile: String?
@@ -29,17 +29,17 @@ class WebServerManager: NSObject {
     didSet {
       switch serverRunning {
       case .Running:
-//        webServer.start(withPort: port, bonjourName:"RN Web Server")
+        webServer.start(withPort: port, bonjourName:"RN Web Server")
         break;
       case .Stopped:
-//        webServer.stop()
+        webServer.stop()
         break;
       }
     }
   }
   var serverUrl :String? {
     get {
-      return ""
+      return webServer.serverURL?.absoluteString
     }
   }
   
