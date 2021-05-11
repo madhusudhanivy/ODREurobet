@@ -223,14 +223,14 @@
 		C37A3AA3264A641100823358 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C37A3AA4264A641100823358 /* ZipManager.swift */,
-				C37A3AA5264A641100823358 /* GameViewController.swift */,
-				C37A3AA6264A641100823358 /* ODRManager.swift */,
 				C37A3AA7264A641100823358 /* NativeUtils.swift */,
 				C37A3AA8264A641100823358 /* EmbeddedGame.swift */,
 				C37A3AA9264A641100823358 /* GameManager.swift */,
-				C37A3AAA264A641100823358 /* WebServerManager.swift */,
+				C37A3AA5264A641100823358 /* GameViewController.swift */,
+				C37A3AA6264A641100823358 /* ODRManager.swift */,
 				C37A3AAB264A641100823358 /* ViewBuildManager.swift */,
+				C37A3AAA264A641100823358 /* WebServerManager.swift */,
+				C37A3AA4264A641100823358 /* ZipManager.swift */,
 				C37A3AB4264A6C8E00823358 /* EmbeddedGame+Native.swift */,
 				C37A3AB6264A77B700823358 /* EmbeddedGameViewController.swift */,
 				C37A3AB8264A782300823358 /* NativeGame.swift */,
