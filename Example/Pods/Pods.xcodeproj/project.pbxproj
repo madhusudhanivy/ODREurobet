@@ -21,7 +21,6 @@
 		B755E2E17E42EB5A0B94E15B16839164 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330D5EF556CBA6E23EA9FD3BD97A4E2 /* ZipManager.swift */; };
 		B7DAC03B27C58E0252018EBE8EF37CF2 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC3517578BE2DFA5E769FF34BDBDA3 /* ODRManager.swift */; };
 		BBDAFA7E8CAC4E0F7DDEF7A982FCC8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C37A3A9F264A629B00823358 /* EmbeddedGame+Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3A9E264A629B00823358 /* EmbeddedGame+Native.swift */; };
 		CF6F6C37739F173F86088402A02BDC29 /* ODREurobet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B16DD9910D6A8768D4D44F9E7B5E2B72 /* ODREurobet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E041FD0493D1A0F3A83F7E3D93ADE733 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9968F45CEEC458CDDB5D16721944667 /* GameManager.swift */; };
 		E5EE0A0825F8612C3447407FDE4BB347 /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E486B3D9FF57B2177FDA1641B3DBD /* WebServerManager.swift */; };
@@ -80,7 +79,6 @@
 		AA98EDDB6E8555EB9A8A908B0095AF90 /* Pods_ODREurobet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODREurobet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC227BA82FAB6C252A324DF785A2F912 /* Pods-ODREurobet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Tests-Info.plist"; sourceTree = "<group>"; };
 		B16DD9910D6A8768D4D44F9E7B5E2B72 /* ODREurobet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODREurobet-umbrella.h"; sourceTree = "<group>"; };
-		C37A3A9E264A629B00823358 /* EmbeddedGame+Native.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmbeddedGame+Native.swift"; sourceTree = "<group>"; };
 		C426E3EE883702DF98AD0BFD617FB3B7 /* ODREurobet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODREurobet.debug.xcconfig; sourceTree = "<group>"; };
 		D460FF8BB2551FDD730BDED276848390 /* Pods-ODREurobet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODREurobet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB49FE02EFE74C28589EFFB17993A335 /* ODREurobet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ODREurobet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -146,7 +144,6 @@
 		22003AFD745152B6FE6910AD2D1DD5B5 /* ODREurobet */ = {
 			isa = PBXGroup;
 			children = (
-				C37A3A9D264A628A00823358 /* Native Games */,
 				442B48256F390BB7B352AC5F2DCC721F /* EmbeddedGame.swift */,
 				A9968F45CEEC458CDDB5D16721944667 /* GameManager.swift */,
 				0B27A62ED9E3EEAFB280C28D8F6C1A8B /* GameViewController.swift */,
@@ -216,14 +213,6 @@
 			);
 			name = "Pods-ODREurobet_Tests";
 			path = "Target Support Files/Pods-ODREurobet_Tests";
-			sourceTree = "<group>";
-		};
-		C37A3A9D264A628A00823358 /* Native Games */ = {
-			isa = PBXGroup;
-			children = (
-				C37A3A9E264A629B00823358 /* EmbeddedGame+Native.swift */,
-			);
-			path = "Native Games";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -411,7 +400,6 @@
 				E041FD0493D1A0F3A83F7E3D93ADE733 /* GameManager.swift in Sources */,
 				7B096F9FDC46411E1D03305912F2E032 /* GameViewController.swift in Sources */,
 				6F74369A64F3D039A324E5682FEB22BA /* NativeUtils.swift in Sources */,
-				C37A3A9F264A629B00823358 /* EmbeddedGame+Native.swift in Sources */,
 				68D4C1320164552D9AB1EE5361A4CDDB /* ODREurobet-dummy.m in Sources */,
 				B7DAC03B27C58E0252018EBE8EF37CF2 /* ODRManager.swift in Sources */,
 				66FB00ECBECC59834823AC49ED829FFC /* ViewBuildManager.swift in Sources */,
