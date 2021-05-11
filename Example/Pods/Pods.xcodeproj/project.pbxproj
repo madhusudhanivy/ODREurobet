@@ -234,13 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				C37A3AA7264A641100823358 /* NativeUtils.swift */,
-				C37A3AA8264A641100823358 /* EmbeddedGame.swift */,
-				C37A3AA9264A641100823358 /* GameManager.swift */,
-				C37A3AA5264A641100823358 /* GameViewController.swift */,
-				C37A3AA6264A641100823358 /* ODRManager.swift */,
-				C37A3AAB264A641100823358 /* ViewBuildManager.swift */,
-				C37A3AAA264A641100823358 /* WebServerManager.swift */,
-				C37A3AA4264A641100823358 /* ZipManager.swift */,
+				C37A3ACE264A871D00823358 /* SharedInstance */,
 				C37A3ACC264A82DC00823358 /* Native games */,
 				C37A3AC0264A812E00823358 /* Loading View */,
 			);
@@ -278,6 +272,20 @@
 				C37A3ABE264A788C00823358 /* NativeGame+WebView.swift */,
 			);
 			path = "Native games";
+			sourceTree = "<group>";
+		};
+		C37A3ACE264A871D00823358 /* SharedInstance */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3AA8264A641100823358 /* EmbeddedGame.swift */,
+				C37A3AA9264A641100823358 /* GameManager.swift */,
+				C37A3AA5264A641100823358 /* GameViewController.swift */,
+				C37A3AA6264A641100823358 /* ODRManager.swift */,
+				C37A3AAB264A641100823358 /* ViewBuildManager.swift */,
+				C37A3AAA264A641100823358 /* WebServerManager.swift */,
+				C37A3AA4264A641100823358 /* ZipManager.swift */,
+			);
+			path = SharedInstance;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
