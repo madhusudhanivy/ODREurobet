@@ -30,10 +30,10 @@
 		C37A3ABD264A787500823358 /* NativeGame+PostMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3ABC264A787500823358 /* NativeGame+PostMessage.swift */; };
 		C37A3ABF264A788C00823358 /* NativeGame+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3ABE264A788C00823358 /* NativeGame+WebView.swift */; };
 		C37A3AC3264A815400823358 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3AC1264A815400823358 /* LoadingScreenViewController.swift */; };
-		C37A3AC4264A815400823358 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A3AC2264A815400823358 /* LoadingScreenViewController.xib */; };
 		C37A3AC7264A81A100823358 /* RoundedBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3AC6264A81A100823358 /* RoundedBarView.swift */; };
 		C37A3AC9264A81FC00823358 /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A3AC8264A81FC00823358 /* LoadingBarView.swift */; };
-		C37A3ACB264A821200823358 /* LoadingBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A3ACA264A821200823358 /* LoadingBarView.xib */; };
+		C37A3AD0264A888E00823358 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A3ACF264A888E00823358 /* LoadingScreenViewController.xib */; };
+		C37A3AD2264A88D300823358 /* LoadingBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A3AD1264A88D300823358 /* LoadingBarView.xib */; };
 		CF6F6C37739F173F86088402A02BDC29 /* ODREurobet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B16DD9910D6A8768D4D44F9E7B5E2B72 /* ODREurobet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -97,10 +97,10 @@
 		C37A3ABC264A787500823358 /* NativeGame+PostMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NativeGame+PostMessage.swift"; sourceTree = "<group>"; };
 		C37A3ABE264A788C00823358 /* NativeGame+WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NativeGame+WebView.swift"; sourceTree = "<group>"; };
 		C37A3AC1264A815400823358 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
-		C37A3AC2264A815400823358 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
 		C37A3AC6264A81A100823358 /* RoundedBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBarView.swift; sourceTree = "<group>"; };
 		C37A3AC8264A81FC00823358 /* LoadingBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBarView.swift; sourceTree = "<group>"; };
-		C37A3ACA264A821200823358 /* LoadingBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingBarView.xib; sourceTree = "<group>"; };
+		C37A3ACF264A888E00823358 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
+		C37A3AD1264A88D300823358 /* LoadingBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingBarView.xib; sourceTree = "<group>"; };
 		C426E3EE883702DF98AD0BFD617FB3B7 /* ODREurobet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODREurobet.debug.xcconfig; sourceTree = "<group>"; };
 		D460FF8BB2551FDD730BDED276848390 /* Pods-ODREurobet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODREurobet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB49FE02EFE74C28589EFFB17993A335 /* ODREurobet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ODREurobet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -245,7 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				C37A3AC1264A815400823358 /* LoadingScreenViewController.swift */,
-				C37A3AC2264A815400823358 /* LoadingScreenViewController.xib */,
+				C37A3ACF264A888E00823358 /* LoadingScreenViewController.xib */,
 				C37A3AC5264A819100823358 /* RoundedBar */,
 			);
 			path = "Loading View";
@@ -256,7 +256,7 @@
 			children = (
 				C37A3AC6264A81A100823358 /* RoundedBarView.swift */,
 				C37A3AC8264A81FC00823358 /* LoadingBarView.swift */,
-				C37A3ACA264A821200823358 /* LoadingBarView.xib */,
+				C37A3AD1264A88D300823358 /* LoadingBarView.xib */,
 			);
 			path = RoundedBar;
 			sourceTree = "<group>";
@@ -445,8 +445,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37A3ABB264A782300823358 /* NativeGame.xib in Resources */,
-				C37A3AC4264A815400823358 /* LoadingScreenViewController.xib in Resources */,
-				C37A3ACB264A821200823358 /* LoadingBarView.xib in Resources */,
+				C37A3AD0264A888E00823358 /* LoadingScreenViewController.xib in Resources */,
+				C37A3AD2264A88D300823358 /* LoadingBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
