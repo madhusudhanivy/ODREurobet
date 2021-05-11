@@ -6,7 +6,7 @@ target 'ODREurobet_Example' do
   pod 'ODREurobet', :path => '../'
 
   pod 'SSZipArchive'
-  pod 'GCDWebServer', '3.5.3', :modular_headers => true
+  pod 'GCDWebServer', '3.5.3'
 #  pod 'React-Core', :path => '../node_modules/react-native/'
   
   target 'ODREurobet_Tests' do
