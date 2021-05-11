@@ -241,12 +241,7 @@
 				C37A3AAB264A641100823358 /* ViewBuildManager.swift */,
 				C37A3AAA264A641100823358 /* WebServerManager.swift */,
 				C37A3AA4264A641100823358 /* ZipManager.swift */,
-				C37A3AB4264A6C8E00823358 /* EmbeddedGame+Native.swift */,
-				C37A3AB6264A77B700823358 /* EmbeddedGameViewController.swift */,
-				C37A3AB8264A782300823358 /* NativeGame.swift */,
-				C37A3AB9264A782300823358 /* NativeGame.xib */,
-				C37A3ABC264A787500823358 /* NativeGame+PostMessage.swift */,
-				C37A3ABE264A788C00823358 /* NativeGame+WebView.swift */,
+				C37A3ACC264A82DC00823358 /* Native games */,
 				C37A3AC0264A812E00823358 /* Loading View */,
 			);
 			path = Source;
@@ -270,6 +265,19 @@
 				C37A3ACA264A821200823358 /* LoadingBarView.xib */,
 			);
 			path = RoundedBar;
+			sourceTree = "<group>";
+		};
+		C37A3ACC264A82DC00823358 /* Native games */ = {
+			isa = PBXGroup;
+			children = (
+				C37A3AB4264A6C8E00823358 /* EmbeddedGame+Native.swift */,
+				C37A3AB6264A77B700823358 /* EmbeddedGameViewController.swift */,
+				C37A3AB8264A782300823358 /* NativeGame.swift */,
+				C37A3AB9264A782300823358 /* NativeGame.xib */,
+				C37A3ABC264A787500823358 /* NativeGame+PostMessage.swift */,
+				C37A3ABE264A788C00823358 /* NativeGame+WebView.swift */,
+			);
+			path = "Native games";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
