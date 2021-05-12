@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F44CC5C6F62D175912EBB5D94EFD0DD /* EmbeddedGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A9313DBAEB3A1F71FFDB5571B5A8C /* EmbeddedGameViewController.swift */; };
 		113D1E47D37C839F45004EC09593CEBE /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B25AF156AB0CA8E7C94DB1F7D6786 /* WebServerManager.swift */; };
 		183F54AA5B1D1A79C1946DAFC13245C2 /* NativeGame+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528ED9A2D11E00EB1224AF91D840230 /* NativeGame+WebView.swift */; };
 		1EB0511FB2F2C107A6554C916E93B37F /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF5F6E233F5ACD3147FE01DA1D2D5B /* LoadingScreenViewController.swift */; };
@@ -59,7 +58,7 @@
 		15EC866D6D95E5AB28AC79B295B6D815 /* EmbeddedGame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmbeddedGame.swift; path = Source/EmbeddedGame.swift; sourceTree = "<group>"; };
 		1AC00CBA19D95E0E5BCFF3B3727121D2 /* Pods-ODREurobet_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Example-Info.plist"; sourceTree = "<group>"; };
 		1E88F0E5084736DB09D9C43809D0D9C8 /* Pods-ODREurobet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ODREurobet_Tests-dummy.m"; sourceTree = "<group>"; };
-		216B00902046725FED61A9999910BD4B /* Pods_ODREurobet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ODREurobet_Tests.framework; path = "Pods-ODREurobet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		216B00902046725FED61A9999910BD4B /* Pods_ODREurobet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODREurobet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AF5F6E233F5ACD3147FE01DA1D2D5B /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingScreenViewController.swift; path = Source/LoadingScreenViewController.swift; sourceTree = "<group>"; };
 		2A59F550F0698F472F7B63A11A5D90F3 /* Pods-ODREurobet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2E2AB60D9B98BC5A6FA37C274C030F8A /* LoadingBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingBarView.swift; path = Source/LoadingBarView.swift; sourceTree = "<group>"; };
@@ -77,23 +76,22 @@
 		6F82FEDE997F2563635535D91BC5ABF0 /* ODREurobet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODREurobet-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DC0608FDF330A0276E0160859A0976F /* ODREurobet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ODREurobet.release.xcconfig; sourceTree = "<group>"; };
-		7EEB0BAC4CEEB7905016E72F8F1367D0 /* ODREurobet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ODREurobet.framework; path = ODREurobet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EEB0BAC4CEEB7905016E72F8F1367D0 /* ODREurobet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ODREurobet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E58AE9BE21E178CEC9A780DDA6A011F /* Pods-ODREurobet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		949F6C4FA414DD5B37DA82A238E5AC68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949F6C4FA414DD5B37DA82A238E5AC68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1F23608A642B5C3A3057E6785C464FC /* Pods-ODREurobet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ODREurobet_Example-umbrella.h"; sourceTree = "<group>"; };
 		A5970D83FC453765DEC270F7A0752C1A /* Pods-ODREurobet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A686BCEC1BAD6F4AF5043D00C9E8A165 /* Pods-ODREurobet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ODREurobet_Example-dummy.m"; sourceTree = "<group>"; };
-		AA98EDDB6E8555EB9A8A908B0095AF90 /* Pods_ODREurobet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ODREurobet_Example.framework; path = "Pods-ODREurobet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA98EDDB6E8555EB9A8A908B0095AF90 /* Pods_ODREurobet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODREurobet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC227BA82FAB6C252A324DF785A2F912 /* Pods-ODREurobet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Tests-Info.plist"; sourceTree = "<group>"; };
 		AF08A9E55F6CDBD15D1B553DEF025F6B /* ODRManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODRManager.swift; path = Source/ODRManager.swift; sourceTree = "<group>"; };
 		B033A50743D1D884B25212BB25668480 /* NativeUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeUtils.swift; path = Source/NativeUtils.swift; sourceTree = "<group>"; };
-		B361318740322EB27DA4951D04772605 /* ODREurobet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ODREurobet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B361318740322EB27DA4951D04772605 /* ODREurobet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ODREurobet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5E78B2DFB3B9E094723A95293451CBB /* RoundedBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedBarView.swift; path = Source/RoundedBarView.swift; sourceTree = "<group>"; };
-		B7BB563DBE4711040905721A66309E91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B7BB563DBE4711040905721A66309E91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C2FCE8ABFF09CC0CC8A715E9915F48B6 /* GameManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameManager.swift; path = Source/GameManager.swift; sourceTree = "<group>"; };
 		C42D7D3A1DA0919FE06B12D6AE3265E5 /* ODREurobet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ODREurobet-umbrella.h"; sourceTree = "<group>"; };
-		C46A9313DBAEB3A1F71FFDB5571B5A8C /* EmbeddedGameViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmbeddedGameViewController.swift; path = Source/EmbeddedGameViewController.swift; sourceTree = "<group>"; };
 		C78FDCCDFA8F04D1D4A2768CCA2BE63E /* ODREurobet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ODREurobet-Info.plist"; sourceTree = "<group>"; };
 		D460FF8BB2551FDD730BDED276848390 /* Pods-ODREurobet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ODREurobet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E46B86D3C9CD661FBDB370C4041B1BD9 /* ODREurobet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ODREurobet.modulemap; sourceTree = "<group>"; };
@@ -246,21 +244,20 @@
 			isa = PBXGroup;
 			children = (
 				15EC866D6D95E5AB28AC79B295B6D815 /* EmbeddedGame.swift */,
-				0383190DA21FA9B44E99FFF337F77D5B /* EmbeddedGame+Native.swift */,
-				C46A9313DBAEB3A1F71FFDB5571B5A8C /* EmbeddedGameViewController.swift */,
 				C2FCE8ABFF09CC0CC8A715E9915F48B6 /* GameManager.swift */,
 				F5F43E6E577D83C66CDF7747DA4A11D7 /* GameViewController.swift */,
-				2E2AB60D9B98BC5A6FA37C274C030F8A /* LoadingBarView.swift */,
-				24AF5F6E233F5ACD3147FE01DA1D2D5B /* LoadingScreenViewController.swift */,
-				4FA0218DD89FD847465CECDF5C3FA871 /* NativeGame.swift */,
-				31F078799A0D1780A6987FDB0DA625F7 /* NativeGame+PostMessage.swift */,
-				3528ED9A2D11E00EB1224AF91D840230 /* NativeGame+WebView.swift */,
-				B033A50743D1D884B25212BB25668480 /* NativeUtils.swift */,
 				AF08A9E55F6CDBD15D1B553DEF025F6B /* ODRManager.swift */,
-				B5E78B2DFB3B9E094723A95293451CBB /* RoundedBarView.swift */,
 				FA227F0C4A4F120A4CD764B65015FD45 /* ViewBuildManager.swift */,
 				3D5B25AF156AB0CA8E7C94DB1F7D6786 /* WebServerManager.swift */,
 				542E74E551E3521561BA628A5074CD01 /* ZipManager.swift */,
+				4FA0218DD89FD847465CECDF5C3FA871 /* NativeGame.swift */,
+				3528ED9A2D11E00EB1224AF91D840230 /* NativeGame+WebView.swift */,
+				31F078799A0D1780A6987FDB0DA625F7 /* NativeGame+PostMessage.swift */,
+				0383190DA21FA9B44E99FFF337F77D5B /* EmbeddedGame+Native.swift */,
+				2E2AB60D9B98BC5A6FA37C274C030F8A /* LoadingBarView.swift */,
+				24AF5F6E233F5ACD3147FE01DA1D2D5B /* LoadingScreenViewController.swift */,
+				B033A50743D1D884B25212BB25668480 /* NativeUtils.swift */,
+				B5E78B2DFB3B9E094723A95293451CBB /* RoundedBarView.swift */,
 				3C29D13728B3934357147331F80D80D4 /* Pod */,
 				BC13AAD8E77758F34EBC0D96A5B7D48E /* Support Files */,
 			);
@@ -422,7 +419,6 @@
 			files = (
 				785E8EFB43C90C59991C8769F815271D /* EmbeddedGame+Native.swift in Sources */,
 				9CDEE856208777FD6001B4BB9ACC83E6 /* EmbeddedGame.swift in Sources */,
-				0F44CC5C6F62D175912EBB5D94EFD0DD /* EmbeddedGameViewController.swift in Sources */,
 				265073E1EBE0042D2E254004096DB5F0 /* GameManager.swift in Sources */,
 				48E1B88699A6B3A8621581383342BD87 /* GameViewController.swift in Sources */,
 				7907047B985E1FBECBD2427E696A26F0 /* LoadingBarView.swift in Sources */,
@@ -588,8 +584,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
