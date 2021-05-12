@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import WebKit
 
 extension NativeGame {
   func getWKWebView() -> WKWebView {
