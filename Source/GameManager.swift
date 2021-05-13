@@ -7,9 +7,9 @@
 
 import Foundation
 
-typealias ThrowableCallback<T> = (() throws -> (T)) -> Void
+public typealias ThrowableCallback<T> = (() throws -> (T)) -> Void
 
-class GameManager: NSObject {
+public class GameManager: NSObject {
   
     enum CustomErrors: Error {
       case genericError
@@ -17,13 +17,13 @@ class GameManager: NSObject {
       case notFoundError
     }
     
-    typealias RCTTempResponseSenderBlock = (NSArray?) -> Void
-    typealias RCTTempResponseErrorBlock = (NSError?) -> Void
-    typealias RCTTempPromiseResolveBlock = (Any?) -> Void
-    typealias RCTTempPromiseRejectBlock = (String?, String?, Error?) -> Void
+    public typealias RCTTempResponseSenderBlock = (NSArray?) -> Void
+    public typealias RCTTempResponseErrorBlock = (NSError?) -> Void
+    public typealias RCTTempPromiseResolveBlock = (Any?) -> Void
+    public typealias RCTTempPromiseRejectBlock = (String?, String?, Error?) -> Void
     
   // MARK: - Singleton
-  static var shared = GameManager()
+  public static var shared = GameManager()
   override private init() {
     super.init()
   }
@@ -34,18 +34,18 @@ class GameManager: NSObject {
   var zip = ZipManager.shared
   var web = WebServerManager.shared
   
-  var currentGame: String?
-  var webServerIndexFile: String? {didSet{web.webServerIndexFile=webServerIndexFile}}
-  var webServerPort: UInt? {didSet{web.port=webServerPort ?? 8080}}
-  var queryString: String?
-  var isForReal: Bool?
+    public var currentGame: String?
+    public var webServerIndexFile: String? {didSet{web.webServerIndexFile=webServerIndexFile}}
+    public var webServerPort: UInt? {didSet{web.port=webServerPort ?? 8080}}
+    public var queryString: String?
+    public var isForReal: Bool?
   
-  var rctResolver: RCTTempPromiseResolveBlock?
-  var rctRejecter: RCTTempPromiseRejectBlock?
+    public var rctResolver: RCTTempPromiseResolveBlock?
+  public var rctRejecter: RCTTempPromiseRejectBlock?
   
   
   // MARK: - Methods
-  func requestUnzippedResource(_ tag: String, resolver: @escaping ThrowableCallback<String>) {
+  public func requestUnzippedResource(_ tag: String, resolver: @escaping ThrowableCallback<String>) {
     
     // check if resource is already unzipped
     if let resourceUnzippedPath = zip.resourceExists(tag) {

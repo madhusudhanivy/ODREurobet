@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoadingScreenViewController: UIViewController {
+public class LoadingScreenViewController: UIViewController {
   
   // MARK : -IBOutlets
   @IBOutlet weak var loadingBar :LoadingBarView!
@@ -19,12 +19,12 @@ class LoadingScreenViewController: UIViewController {
   
   
   // MARK: - Callbacks
-  var loadingDidFinish: (() -> Void)?
+  public var loadingDidFinish: (() -> Void)?
   private var loadingHasFailedWith: ((NSError) -> Void)?
   
   
   //MARK: - View Lifecycle
-  override func viewDidLoad() {
+  public override func viewDidLoad() {
     super.viewDidLoad()
     
     UIDevice.current.setValue(UIDeviceOrientation.portrait.rawValue, forKey: "orientation")

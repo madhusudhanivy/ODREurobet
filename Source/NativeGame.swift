@@ -9,7 +9,7 @@ import UIKit
 
 import WebKit
 
-class NativeGame: UIViewController {
+public class NativeGame: UIViewController {
 
   
   // MARK: - Properties
@@ -23,7 +23,7 @@ class NativeGame: UIViewController {
   
   
   // MARK: - View Lifecycle
-  override func viewDidLoad() {
+  public override func viewDidLoad() {
     super.viewDidLoad()
     
     game.web.startServer(game.zip.savedGamePath) { serverPath in

@@ -7,16 +7,24 @@
 
 import Foundation
 
-class ViewBuildManager {
+public class ViewBuildManager {
   
   // MARK: - Singleton
-  private init() {}
-  static var shared = ViewBuildManager()
+  public init() {}
+    public static var shared = ViewBuildManager()
   
   
   // MARK: - Methods
-  func loading() -> LoadingScreenViewController {
+  public func loading() -> LoadingScreenViewController {
     let vc = LoadingScreenViewController()
+    vc.modalPresentationStyle = .fullScreen
+    return vc
+  }
+}
+
+extension ViewBuildManager {
+  public func gameEmbeddedVegas() -> NativeGame {
+    let vc = NativeGame()
     vc.modalPresentationStyle = .fullScreen
     return vc
   }
