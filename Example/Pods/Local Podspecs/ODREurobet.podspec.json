@@ -20,5 +20,13 @@
   },
   "source_files": "Source/**/*.swift",
   "swift_versions": "5.0",
+  "dependencies": {
+    "SSZipArchive": [
+
+    ],
+    "GCDWebServer": [
+      "3.5.3"
+    ]
+  },
   "swift_version": "5.0"
 }

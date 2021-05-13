@@ -8,6 +8,8 @@
 import Foundation
 import WebKit
 
+typealias EventData = Dictionary<String, Any>
+
 //MARK: - Script Handler Delegate
 extension NativeGame: WKScriptMessageHandler {
   public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {

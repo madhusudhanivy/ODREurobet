@@ -42,12 +42,12 @@ extension ODRManager {
     
     currentRequest.beginAccessingResources { error in
       if let _ = error {
-        resolver({ throw GameViewController.CustomErrors.networkError })
+        resolver({ throw GameManager.CustomErrors.networkError })
         return
       }
       
       guard let resourcePath = self.currentRequest.bundle.path(forResource: tag, ofType: "zip") else {
-        resolver({ throw GameViewController.CustomErrors.notFoundError })
+        resolver({ throw GameManager.CustomErrors.notFoundError })
         return
       }
       resolver({ return resourcePath })

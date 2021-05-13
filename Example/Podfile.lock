@@ -1,16 +1,31 @@
 PODS:
-  - ODREurobet (0.1.0)
+  - GCDWebServer (3.5.3):
+    - GCDWebServer/Core (= 3.5.3)
+  - GCDWebServer/Core (3.5.3)
+  - ODREurobet (0.1.0):
+    - GCDWebServer (= 3.5.3)
+    - SSZipArchive
+  - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
+  - GCDWebServer (= 3.5.3)
   - ODREurobet (from `../`)
+  - SSZipArchive
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+    - SSZipArchive
 
 EXTERNAL SOURCES:
   ODREurobet:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ODREurobet: fdbe0ceb5afc61499dd070c27f99da1e22dad4e4
+  GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
+  ODREurobet: 7fffec3ad07c347c800f6d64803b21555853ecab
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
-PODFILE CHECKSUM: eb81e38e79ecf0969fb404d385dbe5d61624f688
+PODFILE CHECKSUM: c5486473906b1ea9fa1b425cd60c1ae8c059d7b6
 
 COCOAPODS: 1.10.1

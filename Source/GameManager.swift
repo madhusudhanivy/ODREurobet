@@ -11,6 +11,17 @@ typealias ThrowableCallback<T> = (() throws -> (T)) -> Void
 
 class GameManager: NSObject {
   
+    enum CustomErrors: Error {
+      case genericError
+      case networkError
+      case notFoundError
+    }
+    
+    typealias RCTTempResponseSenderBlock = (NSArray?) -> Void
+    typealias RCTTempResponseErrorBlock = (NSError?) -> Void
+    typealias RCTTempPromiseResolveBlock = (Any?) -> Void
+    typealias RCTTempPromiseRejectBlock = (String?, String?, Error?) -> Void
+    
   // MARK: - Singleton
   static var shared = GameManager()
   override private init() {
@@ -29,8 +40,8 @@ class GameManager: NSObject {
   var queryString: String?
   var isForReal: Bool?
   
-  var rctResolver: RCTPromiseResolveBlock?
-  var rctRejecter: RCTPromiseRejectBlock?
+  var rctResolver: RCTTempPromiseResolveBlock?
+  var rctRejecter: RCTTempPromiseRejectBlock?
   
   
   // MARK: - Methods
@@ -49,7 +60,7 @@ class GameManager: NSObject {
         return
       }
       
-      resolver({ throw GameViewController.CustomErrors.genericError })
+      resolver({ throw GameManager.CustomErrors.genericError })
     }
   }
   
@@ -78,7 +89,7 @@ extension GameManager {
         return
       }
       
-      resolver({ throw GameViewController.CustomErrors.genericError })
+      resolver({ throw GameManager.CustomErrors.genericError })
     }
   }
 }
