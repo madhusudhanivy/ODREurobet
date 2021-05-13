@@ -69,9 +69,6 @@
 		B7CD6465DE269DA8C5A08EE3DEBD7952 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C1BF87441B4F95000EA2C82628110E /* CFNetwork.framework */; };
 		B83E2BB0B8D03BCE103C4AC2102A3681 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F66D5260178295124E4795E84EF4BE /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC38A0D04D58428E0A152A7A267AD8BC /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF100E616F4100EFB3EC75797AF8BC5 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3DACF5A264D4DF00046B563 /* 11653.zip in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF57264D4DF00046B563 /* 11653.zip */; };
-		C3DACF5B264D4DF00046B563 /* 11652.zip in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF58264D4DF00046B563 /* 11652.zip */; };
-		C3DACF5C264D4DF00046B563 /* GamesCore.zip in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF59264D4DF00046B563 /* GamesCore.zip */; };
 		C3DACF71264D4EEB0046B563 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5E264D4EEA0046B563 /* ZipManager.swift */; };
 		C3DACF72264D4EEB0046B563 /* NativeGame+PostMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */; };
 		C3DACF73264D4EEB0046B563 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */; };
@@ -243,9 +240,6 @@
 		B70145FF323BF889D8F83C35EA7EC327 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
 		BF9B7C5DB0756AB3006FFED02E47155B /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
 		C2A8A7D1C6D5879F890F8795D68B8B12 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3DACF57264D4DF00046B563 /* 11653.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11653.zip; sourceTree = "<group>"; };
-		C3DACF58264D4DF00046B563 /* 11652.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11652.zip; sourceTree = "<group>"; };
-		C3DACF59264D4DF00046B563 /* GamesCore.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = GamesCore.zip; sourceTree = "<group>"; };
 		C3DACF5E264D4EEA0046B563 /* ZipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipManager.swift; sourceTree = "<group>"; };
 		C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+PostMessage.swift"; sourceTree = "<group>"; };
 		C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
@@ -561,16 +555,6 @@
 			path = "Target Support Files/Pods-ODREurobet_Tests";
 			sourceTree = "<group>";
 		};
-		C3DACF56264D4DF00046B563 /* Games */ = {
-			isa = PBXGroup;
-			children = (
-				C3DACF57264D4DF00046B563 /* 11653.zip */,
-				C3DACF58264D4DF00046B563 /* 11652.zip */,
-				C3DACF59264D4DF00046B563 /* GamesCore.zip */,
-			);
-			path = Games;
-			sourceTree = "<group>";
-		};
 		C3DACF5D264D4EEA0046B563 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -591,7 +575,6 @@
 				C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */,
 				C3DACF6D264D4EEA0046B563 /* NativeGame.xib */,
 				C3DACF6E264D4EEB0046B563 /* NativeGame.swift */,
-				C3DACF56264D4DF00046B563 /* Games */,
 				C3DACF6F264D4EEB0046B563 /* Loading View */,
 			);
 			path = Source;
@@ -882,11 +865,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3DACF79264D4EEB0046B563 /* LoadingScreenViewController.xib in Resources */,
-				C3DACF5A264D4DF00046B563 /* 11653.zip in Resources */,
 				C3DACF7E264D4EEB0046B563 /* NativeGame.xib in Resources */,
 				C3DACF75264D4EEB0046B563 /* LoadingBarView.xib in Resources */,
-				C3DACF5B264D4DF00046B563 /* 11652.zip in Resources */,
-				C3DACF5C264D4DF00046B563 /* GamesCore.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
