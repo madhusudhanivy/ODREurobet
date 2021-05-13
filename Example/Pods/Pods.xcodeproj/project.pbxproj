@@ -10,28 +10,22 @@
 		050C8AC7CB576568709AFDA6F5553257 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FF822181BEA0A233610660310A1AAE /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C73969CECF002ED79D7D590645C0543 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 439F656F57C8981F5EA0C1DC57653705 /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0C7CAA322487CC36F7D9551E6E709F1E /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 87E9D592A4DCAB0E879DF564CF40BA65 /* mz_strm_pkcrypt.c */; };
-		0F0294D691062C4FE35F1FE5DAFEBAEB /* NativeGame+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12F52119C36EE5FEDC773A383152E2 /* NativeGame+WebView.swift */; };
 		11C52C464F820414896BDD0DD1C9AA10 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 795AB43A0A1F998CA80BE606A5A7667E /* GCDWebServerDataResponse.m */; };
 		151430C81A33188722661CFFEE49FDF4 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0BBD9653FC1842C4399EE473B206D /* GCDWebServerFileResponse.m */; };
 		1E72856D1321547612C85BA1FCF78E10 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 9869F2A415336BCD518CFEDA806434FB /* mz_strm_os_posix.c */; };
 		1F287FB91DC6F181C94C21D49DFF05D2 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E2DBA4755C417B3A1FA5D61AFBD13C /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2010CB2DF94E3B3847D17BB87D4A5BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
-		22B661EBD32BC50C5B5503D034CEBB69 /* NativeGame+PostMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1A8F88C552B10AA0725891BDBCC1C /* NativeGame+PostMessage.swift */; };
 		22FDF75E144679C5795FB10FD5C2BD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
 		29466AAC7B3FFBBF732600DDB68AA910 /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 852C92ABB47C72ACA247BABBEF00D545 /* mz_crypt.c */; };
 		2D3FF29A45376E46E8F90C317CF97A30 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A72CFA897A7E661BEE11C25D298908CC /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		326DC2D34C1F14D7CC223F643A82F80D /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D836EE6A4463FBA1FFD327CE163D623 /* mz_strm_mem.c */; };
-		35C7F99B347464451154576AFBC3355F /* ViewBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48BC28B2EEEEB13425C8607EF86E93 /* ViewBuildManager.swift */; };
 		368E32497AA7421EE16406E778538BF4 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E46642252B471D6486D2BEB6E46E365D /* GCDWebServerMultiPartFormRequest.m */; };
 		377D40904771460786B5118597EFBD55 /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = F429A2B953AF3D9BFA3B5971BC7F158D /* mz_crypt_apple.c */; };
 		415D9139F7D0811A01521878BA9E75B3 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AC349AA302B663AF42AE08FA456065 /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		443AD45E5DC97BA2227C9A7626F2FEAD /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE5FF779838722C7F1EA3C4942D862 /* ZipManager.swift */; };
-		4753F3C5595F477C9A3DD0365E2EA322 /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BFB8978ABA93887B1B7BABEAD729B /* WebServerManager.swift */; };
 		48CEDEECC09887CF7C7039D52B06FC14 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C824658E35217D2BA07CF11EB28A21 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E8D3C23E6463BC83EA8B0876D126F08 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = D96C6DC82C290BD35006143417D8D124 /* mz_zip_rw.c */; };
 		4FB7269430E328B02B7633AFBDB6343B /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 981DCA2FFDEF23E6E50797E159DA311E /* GCDWebServerErrorResponse.m */; };
 		539584E3396B6C621F4A428C775B0C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
-		53F7BBD42E9AE306B21C2E822DC14ACE /* NativeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0E251020AD9A362581ED2E8BF1E15 /* NativeUtils.swift */; };
 		54ACFF619F0B87F362656EF7E80BBC53 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5432AF828443D7B55A435FC70C53261D /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		56D34EA5CDC265F5EB8F82683F65EF32 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F940F931D769D0F5B6E2901887A59885 /* GCDWebServer-dummy.m */; };
 		58B50BA32CF7680CB30F977A9F4E2A9B /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 459748A6EFA9BE93CA38428A5F0813C7 /* mz_strm_split.c */; };
@@ -42,14 +36,12 @@
 		6ECA9F7BA717C8B618DE5D3B5D8A0DBF /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B7C5DB0756AB3006FFED02E47155B /* GCDWebServerRequest.m */; };
 		716A07F284FB9CAF59EBCA60A55A193F /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 131F3F752FED1D3C8E6C07BAD7C04BE6 /* GCDWebServer.m */; };
 		728AD2F90F22CC9A3C9185E8AA4938E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
-		73A426B0D0CCA43796599F5BCD62868E /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D094AF7705F8251647961B172E68B8 /* LoadingScreenViewController.swift */; };
 		79058DB6826C123FE606E2BEF2677A00 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 79780C45D935CA50A9036BCD1F7757CA /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A1C3106A1EBAF22923B3F02E69739F2 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A19BFE84BAA9BD4975C78C3E3AE45065 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A39F7CFCF173AFB6D8E4BC821875927 /* Pods-ODREurobet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C18FF18D7AB5C2A75F103018EEC28 /* Pods-ODREurobet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E41CF6D4CA5207843BD1D16D8F119BE /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A25FF4579942DE87ECBCFAC7140F61 /* mz_compat.c */; };
 		80D31E08C2B83979F4CC4F479A426DD4 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E7AEAFCBDA6035012034C854FB9D8F /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		82AC425691CFB674FEC4BC6E0F594FD9 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 328EB304D0633C241E1D2FA0F93B5E50 /* mz_strm_wzaes.c */; };
-		83495E67297885B073A9593AB1552467 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E04650EE875F55A202D07015AAC950 /* ODRManager.swift */; };
 		853D71DFAB226D8BEDC5E40985321DD4 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 93941BCAD5B7394100A574D01192C6B9 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8561ABA874E2469BF474E73F8E8C06AD /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8DAD5A11EA257E9B64D4F6EEA1CF9B /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		862F9E55EC977ED975CEB16FF946EC18 /* Pods-ODREurobet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A686BCEC1BAD6F4AF5043D00C9E8A165 /* Pods-ODREurobet_Example-dummy.m */; };
@@ -62,14 +54,11 @@
 		8E28E848142C4553EAA2F4E1F4CE9D4B /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = D57C37A6656E385B7869D5221DE5D63D /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8FF2A803B2B1F56DF918BDD5B5B280F4 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF46F02A26A600BE6A87A0AC26534 /* SSZipArchive.m */; };
 		93D941ABE359C70298362A37D87F1E12 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = B70145FF323BF889D8F83C35EA7EC327 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94ED5C69AF5CBE71CB02E4B2814ADA14 /* RoundedBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64173EF9F2242C036D4A7CBACCD1782 /* RoundedBarView.swift */; };
 		96D8CD5835DDAC4056FE8B3AB001412D /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 198C119174612128CB08E4E8D8E6B5DB /* GCDWebServerResponse.m */; };
 		9A6E3106AA13A98967F0BD70383561B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */; };
-		9AAFA21FC3F46F1EBE0E8BD09DC232CD /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18700E6DF85DE7FD92497FA573915C6 /* GameManager.swift */; };
 		9C1FB2DC170EE26F5907CD37AAB65C57 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8476F59CDA0E28F5363316CC392AB83D /* mz_strm_zlib.c */; };
 		9D4BD08C2F28947664CA45F535183D76 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8524F9C82C4B724583778D89AC83002C /* mz_strm_buf.c */; };
 		A0FA47E2B102E2B513EE3763CF9C6FCC /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2441899ABD62B97A12422AC0CE6EBBC5 /* GCDWebServerStreamedResponse.m */; };
-		A114201D4E8EC74B0F0A99F49E7E88DD /* NativeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99FF59472FAD9F571B11AEB1513F8 /* NativeGame.swift */; };
 		A1BCA4B28B4EA05ECA948402605A1028 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2F66EA2F89E97091813C3E15C680D0 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A251D437B3DD41EA95A5ACDEDD53D75F /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E281AC58BAF5E62189BF8101C9ADDC /* GCDWebServerFunctions.m */; };
 		A2D684731D0E1DAC9531AF0DF5ECF8A2 /* Pods-ODREurobet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F23608A642B5C3A3057E6785C464FC /* Pods-ODREurobet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,11 +72,25 @@
 		C3DACF5A264D4DF00046B563 /* 11653.zip in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF57264D4DF00046B563 /* 11653.zip */; };
 		C3DACF5B264D4DF00046B563 /* 11652.zip in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF58264D4DF00046B563 /* 11652.zip */; };
 		C3DACF5C264D4DF00046B563 /* GamesCore.zip in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF59264D4DF00046B563 /* GamesCore.zip */; };
+		C3DACF71264D4EEB0046B563 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5E264D4EEA0046B563 /* ZipManager.swift */; };
+		C3DACF72264D4EEB0046B563 /* NativeGame+PostMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */; };
+		C3DACF73264D4EEB0046B563 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */; };
+		C3DACF74264D4EEB0046B563 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF61264D4EEA0046B563 /* ODRManager.swift */; };
+		C3DACF75264D4EEB0046B563 /* LoadingBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF62264D4EEA0046B563 /* LoadingBarView.xib */; };
+		C3DACF76264D4EEB0046B563 /* NativeGame+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */; };
+		C3DACF77264D4EEB0046B563 /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */; };
+		C3DACF78264D4EEB0046B563 /* NativeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF67264D4EEA0046B563 /* NativeUtils.swift */; };
+		C3DACF79264D4EEB0046B563 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF68264D4EEA0046B563 /* LoadingScreenViewController.xib */; };
+		C3DACF7A264D4EEB0046B563 /* RoundedBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */; };
+		C3DACF7B264D4EEB0046B563 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6A264D4EEA0046B563 /* GameManager.swift */; };
+		C3DACF7C264D4EEB0046B563 /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */; };
+		C3DACF7D264D4EEB0046B563 /* ViewBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */; };
+		C3DACF7E264D4EEB0046B563 /* NativeGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF6D264D4EEA0046B563 /* NativeGame.xib */; };
+		C3DACF7F264D4EEB0046B563 /* NativeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6E264D4EEB0046B563 /* NativeGame.swift */; };
 		C74683BFAC5BD5EA0E8E56F829D39BD4 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = D6CB7484CD8E60964B9CF0EEAD68BCB1 /* mz_strm.c */; };
 		CDD1E311233BEC481F415B45016BBC77 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC95202DC99CCB18F0ED17859223D0E /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CFC945869C722B862999837F67FF0091 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB7EC3E87EF4FCB81FDCAEBE8D8C3CF /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D2620B5544C397DC8E9BB895FE26AB42 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F7395391193AC7491953A349B76D9F /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB46FBE1D060C1A5EA0E1639A4F4921D /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A03C6EC4820D5A3E3A61962070968CF /* LoadingBarView.swift */; };
 		DCD00D8EA0CEEE9FB8CCE6A2DE6B618E /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = C94276CC63DE7E6734AFBFE4EE05220E /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DEBE11CC5640EA085FBACEA5210DCA68 /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 596A7B2C5D2F50474173CDFA6ED615BB /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E0892731D80646EBC9C9D13A061A6D6B /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A92120C2ADD27E97F77D85265386E273 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -157,18 +160,15 @@
 		131F3F752FED1D3C8E6C07BAD7C04BE6 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
 		17FF822181BEA0A233610660310A1AAE /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
 		198C119174612128CB08E4E8D8E6B5DB /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
-		19E04650EE875F55A202D07015AAC950 /* ODRManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODRManager.swift; path = Source/ODRManager.swift; sourceTree = "<group>"; };
 		1AC00CBA19D95E0E5BCFF3B3727121D2 /* Pods-ODREurobet_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Example-Info.plist"; sourceTree = "<group>"; };
 		1B360E9C5087CEEE877E68A0963C8ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1E88F0E5084736DB09D9C43809D0D9C8 /* Pods-ODREurobet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ODREurobet_Tests-dummy.m"; sourceTree = "<group>"; };
-		1EA1A8F88C552B10AA0725891BDBCC1C /* NativeGame+PostMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NativeGame+PostMessage.swift"; path = "Source/NativeGame+PostMessage.swift"; sourceTree = "<group>"; };
 		20732EE23303A5306CE68B6FEDB0F767 /* ODREurobet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ODREurobet-dummy.m"; sourceTree = "<group>"; };
 		216B00902046725FED61A9999910BD4B /* Pods_ODREurobet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODREurobet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2400D78DD4A13004826EAC16147FDD0B /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2441899ABD62B97A12422AC0CE6EBBC5 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
 		29E1E19E48A1C60FCF799D21620C4DA1 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
 		2A59F550F0698F472F7B63A11A5D90F3 /* Pods-ODREurobet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2F48BC28B2EEEEB13425C8607EF86E93 /* ViewBuildManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewBuildManager.swift; path = Source/ViewBuildManager.swift; sourceTree = "<group>"; };
 		30E58F62D5DDB3876B75D5C8A6D308C9 /* GCDWebServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCDWebServer-Info.plist"; sourceTree = "<group>"; };
 		328EB304D0633C241E1D2FA0F93B5E50 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
 		32F7395391193AC7491953A349B76D9F /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
@@ -184,19 +184,15 @@
 		482DC743AFC409797F3A96C7DF01EFDC /* Pods-ODREurobet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		49C3001C05202F2DF73C47BFB1C91DFF /* Pods-ODREurobet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ODREurobet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49C30845784A10E65C341E2EAE8EEAB0 /* Pods-ODREurobet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ODREurobet_Tests.modulemap"; sourceTree = "<group>"; };
-		4A03C6EC4820D5A3E3A61962070968CF /* LoadingBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingBarView.swift; path = Source/LoadingBarView.swift; sourceTree = "<group>"; };
 		4D836EE6A4463FBA1FFD327CE163D623 /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
 		4E053A367EF1D0ED56F3E19F1D2B8DE0 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
-		4E12F52119C36EE5FEDC773A383152E2 /* NativeGame+WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NativeGame+WebView.swift"; path = "Source/NativeGame+WebView.swift"; sourceTree = "<group>"; };
 		53D5088A398B5AF30951AF649CBEEC0D /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
 		5432AF828443D7B55A435FC70C53261D /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
 		596A7B2C5D2F50474173CDFA6ED615BB /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
 		5BF0C11846B0ED41D502A73F6AC6EA90 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
-		5D4BFB8978ABA93887B1B7BABEAD729B /* WebServerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServerManager.swift; path = Source/WebServerManager.swift; sourceTree = "<group>"; };
 		5DB527161085C183AB676D5AAD597852 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
 		5EC95202DC99CCB18F0ED17859223D0E /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
 		6339AC1E3A0DB65E2B37166089454A9F /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
-		66E99FF59472FAD9F571B11AEB1513F8 /* NativeGame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeGame.swift; path = Source/NativeGame.swift; sourceTree = "<group>"; };
 		6735C41CEBA9C1EF02F1CDE309FCB229 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		691AC47F4A4FCD8B712C335E371B3F5B /* Pods-ODREurobet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ODREurobet_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6CBEAE0F3B6CEC390E07933F0FB19B15 /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
@@ -218,7 +214,6 @@
 		8BB7EC3E87EF4FCB81FDCAEBE8D8C3CF /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
 		8CAA0548F2D89BD812FA7058D298B2AD /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
 		8E58AE9BE21E178CEC9A780DDA6A011F /* Pods-ODREurobet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ODREurobet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		90EE5FF779838722C7F1EA3C4942D862 /* ZipManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipManager.swift; path = Source/ZipManager.swift; sourceTree = "<group>"; };
 		91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93941BCAD5B7394100A574D01192C6B9 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
 		95AC349AA302B663AF42AE08FA456065 /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
@@ -242,19 +237,30 @@
 		AEF7F165501AC81F754E269B343DE4DE /* ODREurobet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ODREurobet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFFAF46F02A26A600BE6A87A0AC26534 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
 		B226D88532798AB97DDCD6E28AB42C8B /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
-		B3C0E251020AD9A362581ED2E8BF1E15 /* NativeUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeUtils.swift; path = Source/NativeUtils.swift; sourceTree = "<group>"; };
 		B4E0BD1E124BCEA60D9EF2A7D816299F /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
 		B5C812456FA2205C395EF81445BCF2AD /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
-		B64173EF9F2242C036D4A7CBACCD1782 /* RoundedBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedBarView.swift; path = Source/RoundedBarView.swift; sourceTree = "<group>"; };
 		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70145FF323BF889D8F83C35EA7EC327 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
-		B9D094AF7705F8251647961B172E68B8 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingScreenViewController.swift; path = Source/LoadingScreenViewController.swift; sourceTree = "<group>"; };
 		BF9B7C5DB0756AB3006FFED02E47155B /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
-		C18700E6DF85DE7FD92497FA573915C6 /* GameManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameManager.swift; path = Source/GameManager.swift; sourceTree = "<group>"; };
 		C2A8A7D1C6D5879F890F8795D68B8B12 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DACF57264D4DF00046B563 /* 11653.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11653.zip; sourceTree = "<group>"; };
 		C3DACF58264D4DF00046B563 /* 11652.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 11652.zip; sourceTree = "<group>"; };
 		C3DACF59264D4DF00046B563 /* GamesCore.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = GamesCore.zip; sourceTree = "<group>"; };
+		C3DACF5E264D4EEA0046B563 /* ZipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipManager.swift; sourceTree = "<group>"; };
+		C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+PostMessage.swift"; sourceTree = "<group>"; };
+		C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+		C3DACF61264D4EEA0046B563 /* ODRManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODRManager.swift; sourceTree = "<group>"; };
+		C3DACF62264D4EEA0046B563 /* LoadingBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingBarView.xib; sourceTree = "<group>"; };
+		C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+WebView.swift"; sourceTree = "<group>"; };
+		C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBarView.swift; sourceTree = "<group>"; };
+		C3DACF67264D4EEA0046B563 /* NativeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeUtils.swift; sourceTree = "<group>"; };
+		C3DACF68264D4EEA0046B563 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
+		C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBarView.swift; sourceTree = "<group>"; };
+		C3DACF6A264D4EEA0046B563 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServerManager.swift; sourceTree = "<group>"; };
+		C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBuildManager.swift; sourceTree = "<group>"; };
+		C3DACF6D264D4EEA0046B563 /* NativeGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeGame.xib; sourceTree = "<group>"; };
+		C3DACF6E264D4EEB0046B563 /* NativeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeGame.swift; sourceTree = "<group>"; };
 		C50408F9AFE9E0A7E7D854D1A634A059 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
 		C6450DA1EADB81048261C48A06C9E638 /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
 		C94276CC63DE7E6734AFBFE4EE05220E /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
@@ -409,19 +415,7 @@
 		598C2EC4D3EC6B193B5A23AEB1E88881 /* ODREurobet */ = {
 			isa = PBXGroup;
 			children = (
-				C18700E6DF85DE7FD92497FA573915C6 /* GameManager.swift */,
-				4A03C6EC4820D5A3E3A61962070968CF /* LoadingBarView.swift */,
-				B9D094AF7705F8251647961B172E68B8 /* LoadingScreenViewController.swift */,
-				66E99FF59472FAD9F571B11AEB1513F8 /* NativeGame.swift */,
-				1EA1A8F88C552B10AA0725891BDBCC1C /* NativeGame+PostMessage.swift */,
-				4E12F52119C36EE5FEDC773A383152E2 /* NativeGame+WebView.swift */,
-				B3C0E251020AD9A362581ED2E8BF1E15 /* NativeUtils.swift */,
-				19E04650EE875F55A202D07015AAC950 /* ODRManager.swift */,
-				B64173EF9F2242C036D4A7CBACCD1782 /* RoundedBarView.swift */,
-				2F48BC28B2EEEEB13425C8607EF86E93 /* ViewBuildManager.swift */,
-				5D4BFB8978ABA93887B1B7BABEAD729B /* WebServerManager.swift */,
-				90EE5FF779838722C7F1EA3C4942D862 /* ZipManager.swift */,
-				C3DACF56264D4DF00046B563 /* Games */,
+				C3DACF5D264D4EEA0046B563 /* Source */,
 				5F22FF641A40A77A92A44F9346914031 /* Pod */,
 				1E9EC5259D0D0C7C52D1A62FDDE57CEB /* Support Files */,
 			);
@@ -575,6 +569,61 @@
 				C3DACF59264D4DF00046B563 /* GamesCore.zip */,
 			);
 			path = Games;
+			sourceTree = "<group>";
+		};
+		C3DACF5D264D4EEA0046B563 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C3DACF5E264D4EEA0046B563 /* ZipManager.swift */,
+				C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */,
+				C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */,
+				C3DACF61264D4EEA0046B563 /* ODRManager.swift */,
+				C3DACF62264D4EEA0046B563 /* LoadingBarView.xib */,
+				C3DACF63264D4EEA0046B563 /* SharedInstance */,
+				C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */,
+				C3DACF65264D4EEA0046B563 /* Native games */,
+				C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */,
+				C3DACF67264D4EEA0046B563 /* NativeUtils.swift */,
+				C3DACF68264D4EEA0046B563 /* LoadingScreenViewController.xib */,
+				C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */,
+				C3DACF6A264D4EEA0046B563 /* GameManager.swift */,
+				C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */,
+				C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */,
+				C3DACF6D264D4EEA0046B563 /* NativeGame.xib */,
+				C3DACF6E264D4EEB0046B563 /* NativeGame.swift */,
+				C3DACF56264D4DF00046B563 /* Games */,
+				C3DACF6F264D4EEB0046B563 /* Loading View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C3DACF63264D4EEA0046B563 /* SharedInstance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SharedInstance;
+			sourceTree = "<group>";
+		};
+		C3DACF65264D4EEA0046B563 /* Native games */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Native games";
+			sourceTree = "<group>";
+		};
+		C3DACF6F264D4EEB0046B563 /* Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				C3DACF70264D4EEB0046B563 /* RoundedBar */,
+			);
+			path = "Loading View";
+			sourceTree = "<group>";
+		};
+		C3DACF70264D4EEB0046B563 /* RoundedBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RoundedBar;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -832,7 +881,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DACF79264D4EEB0046B563 /* LoadingScreenViewController.xib in Resources */,
 				C3DACF5A264D4DF00046B563 /* 11653.zip in Resources */,
+				C3DACF7E264D4EEB0046B563 /* NativeGame.xib in Resources */,
+				C3DACF75264D4EEB0046B563 /* LoadingBarView.xib in Resources */,
 				C3DACF5B264D4DF00046B563 /* 11652.zip in Resources */,
 				C3DACF5C264D4DF00046B563 /* GamesCore.zip in Resources */,
 			);
@@ -904,19 +956,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AAFA21FC3F46F1EBE0E8BD09DC232CD /* GameManager.swift in Sources */,
-				DB46FBE1D060C1A5EA0E1639A4F4921D /* LoadingBarView.swift in Sources */,
-				73A426B0D0CCA43796599F5BCD62868E /* LoadingScreenViewController.swift in Sources */,
-				22B661EBD32BC50C5B5503D034CEBB69 /* NativeGame+PostMessage.swift in Sources */,
-				0F0294D691062C4FE35F1FE5DAFEBAEB /* NativeGame+WebView.swift in Sources */,
-				A114201D4E8EC74B0F0A99F49E7E88DD /* NativeGame.swift in Sources */,
-				53F7BBD42E9AE306B21C2E822DC14ACE /* NativeUtils.swift in Sources */,
+				C3DACF72264D4EEB0046B563 /* NativeGame+PostMessage.swift in Sources */,
+				C3DACF77264D4EEB0046B563 /* LoadingBarView.swift in Sources */,
+				C3DACF7A264D4EEB0046B563 /* RoundedBarView.swift in Sources */,
+				C3DACF74264D4EEB0046B563 /* ODRManager.swift in Sources */,
+				C3DACF76264D4EEB0046B563 /* NativeGame+WebView.swift in Sources */,
+				C3DACF78264D4EEB0046B563 /* NativeUtils.swift in Sources */,
 				F4371466A18B816FFA4C1A1C8EC68A57 /* ODREurobet-dummy.m in Sources */,
-				83495E67297885B073A9593AB1552467 /* ODRManager.swift in Sources */,
-				94ED5C69AF5CBE71CB02E4B2814ADA14 /* RoundedBarView.swift in Sources */,
-				35C7F99B347464451154576AFBC3355F /* ViewBuildManager.swift in Sources */,
-				4753F3C5595F477C9A3DD0365E2EA322 /* WebServerManager.swift in Sources */,
-				443AD45E5DC97BA2227C9A7626F2FEAD /* ZipManager.swift in Sources */,
+				C3DACF7D264D4EEB0046B563 /* ViewBuildManager.swift in Sources */,
+				C3DACF71264D4EEB0046B563 /* ZipManager.swift in Sources */,
+				C3DACF73264D4EEB0046B563 /* LoadingScreenViewController.swift in Sources */,
+				C3DACF7B264D4EEB0046B563 /* GameManager.swift in Sources */,
+				C3DACF7C264D4EEB0046B563 /* WebServerManager.swift in Sources */,
+				C3DACF7F264D4EEB0046B563 /* NativeGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
