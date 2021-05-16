@@ -30,7 +30,7 @@ For playing inhouse Games
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Source/**/*.{swift, xib}'
   s.swift_version = '5.0'
     s.platforms = {
         "ios": "11.0"
