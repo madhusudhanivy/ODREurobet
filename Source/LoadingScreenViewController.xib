@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingScreenViewController" customModule="Eurobet_Casino_iOS" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingScreenViewController" customModule="ODREurobet" customModuleProvider="target">
             <connections>
                 <outlet property="loadingBar" destination="nHo-5R-9lB" id="DcS-Rc-LGi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -33,7 +31,7 @@
                                 <constraint firstAttribute="width" secondItem="MZB-do-BoX" secondAttribute="height" multiplier="116:15" id="gsh-M0-5WD"/>
                             </constraints>
                         </imageView>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHo-5R-9lB" customClass="LoadingBarView" customModule="Eurobet_Casino_iOS" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHo-5R-9lB" customClass="LoadingBarView" customModule="ODREurobet" customModuleProvider="target">
                             <rect key="frame" x="23" y="45" width="182" height="8"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="8" id="FcN-bI-QwC"/>
@@ -57,6 +55,7 @@
                     </constraints>
                 </view>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="PGV-I0-VbI" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="36d-JL-c05"/>
@@ -67,7 +66,7 @@
                 <constraint firstItem="PGV-I0-VbI" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="tQN-08-ZqD"/>
                 <constraint firstItem="PGV-I0-VbI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="zzS-kD-uos"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="62" y="90"/>
         </view>
     </objects>
     <resources>

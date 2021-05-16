@@ -563,9 +563,7 @@
 				C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */,
 				C3DACF61264D4EEA0046B563 /* ODRManager.swift */,
 				C3DACF62264D4EEA0046B563 /* LoadingBarView.xib */,
-				C3DACF63264D4EEA0046B563 /* SharedInstance */,
 				C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */,
-				C3DACF65264D4EEA0046B563 /* Native games */,
 				C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */,
 				C3DACF67264D4EEA0046B563 /* NativeUtils.swift */,
 				C3DACF68264D4EEA0046B563 /* LoadingScreenViewController.xib */,
@@ -575,38 +573,8 @@
 				C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */,
 				C3DACF6D264D4EEA0046B563 /* NativeGame.xib */,
 				C3DACF6E264D4EEB0046B563 /* NativeGame.swift */,
-				C3DACF6F264D4EEB0046B563 /* Loading View */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		C3DACF63264D4EEA0046B563 /* SharedInstance */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SharedInstance;
-			sourceTree = "<group>";
-		};
-		C3DACF65264D4EEA0046B563 /* Native games */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Native games";
-			sourceTree = "<group>";
-		};
-		C3DACF6F264D4EEB0046B563 /* Loading View */ = {
-			isa = PBXGroup;
-			children = (
-				C3DACF70264D4EEB0046B563 /* RoundedBar */,
-			);
-			path = "Loading View";
-			sourceTree = "<group>";
-		};
-		C3DACF70264D4EEB0046B563 /* RoundedBar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RoundedBar;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
