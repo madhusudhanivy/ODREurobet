@@ -30,15 +30,15 @@ For playing inhouse Games
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'Source/**/*.{swift, xib}'
+  s.source_files = 'Source/**/*.{swift, c,h,m,mm,cpp,a,framework,pch}'
   s.swift_version = '5.0'
     s.platforms = {
         "ios": "11.0"
     }
-  
-  # s.resource_bundles = {
-  #   'ODREurobet' => ['ODREurobet/Assets/*.png']
-  # }
+#    /Users/madhusudhan.putta/Eurobet/ReactNative/library/ODREurobet/Example/ODREurobet/Images.xcassets
+   s.resource_bundles = {
+     'ODREurobet' => ['ODREurobet/Assets/*.png', 'Source/**/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
