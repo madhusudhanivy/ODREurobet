@@ -46,6 +46,7 @@ public class LoadingScreenViewController: UIViewController {
             self.unzipHandler(tag) { _ in
                 self.game.currentGame = tag
                 self.loadingDidFinish?()
+                self.game.rctResolver!("Downloaded successfully")
             }
             self.observeProgress()
         }
