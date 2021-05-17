@@ -23,11 +23,17 @@ public class LoadingScreenViewController: UIViewController {
   private var loadingHasFailedWith: ((NSError) -> Void)?
   
   
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
   //MARK: - View Lifecycle
   public override func viewDidLoad() {
     super.viewDidLoad()
     
     UIDevice.current.setValue(UIDeviceOrientation.portrait.rawValue, forKey: "orientation")
+    
+//    self.view.backgroundColor = UIColor.orange
     
     guard let tag = game.currentGame else {
       errorHandler("No resource tag passed")
@@ -44,7 +50,7 @@ public class LoadingScreenViewController: UIViewController {
   func initializeLoading(_ tag: String) {
     unzipHandler("GamesCore") { _ in
       self.unzipHandler(tag) { _ in
-        self.game.currentGame = tag
+//        self.game.currentGame = tag
         self.loadingDidFinish?()
       }
       self.observeProgress()
@@ -64,7 +70,7 @@ public class LoadingScreenViewController: UIViewController {
   }
   
   func observeProgress() {
-    loadingBar.progress = game.odr.currentRequest.progress
+//    loadingBar.progress = game.odr.currentRequest.progress
   }
   
   func errorHandler(_ errorDescription: String) {

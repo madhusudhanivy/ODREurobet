@@ -37,7 +37,7 @@ For playing inhouse Games
     }
 #    /Users/madhusudhan.putta/Eurobet/ReactNative/library/ODREurobet/Example/ODREurobet/Images.xcassets
    s.resource_bundles = {
-     'ODREurobet' => ['ODREurobet/Assets/*.png', 'Source/**/*.xib']
+     'ODREurobet' => ['ODREurobet/Assets/*.png', 'ODREurobet/Source/**/*.xib']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

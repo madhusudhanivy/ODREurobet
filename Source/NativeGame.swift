@@ -19,12 +19,16 @@ public class NativeGame: UIViewController {
   
   
   // MARK: - IBOutlets
-  @IBOutlet weak var webView :UIView!
+  @IBOutlet weak var layerView :UIView!
   
   
   // MARK: - View Lifecycle
   public override func viewDidLoad() {
     super.viewDidLoad()
+    
+    print(layerView)
+    
+    self.view.backgroundColor = UIColor.red
     
     game.web.startServer(game.zip.savedGamePath) { serverPath in
       guard let gameUrl = game.getCurrentGameUrl(), let url = URL(string: gameUrl) else {

@@ -26,15 +26,18 @@ extension NativeGame {
     configuration.userContentController.addUserScript(buildUserScript())
     configuration.userContentController.add(self, name: eventName)
     
+    print(layerView)
     
-    let wkWebView = WKWebView(frame: webView.frame, configuration: configuration)
+    let wkWebView = WKWebView(frame: self.view.frame, configuration: configuration)
     wkWebView.scrollView.showsVerticalScrollIndicator = false
     wkWebView.scrollView.showsHorizontalScrollIndicator = false
     wkWebView.translatesAutoresizingMaskIntoConstraints = false
     
-    webView.addSubview(wkWebView)
+    self.view.addSubview(wkWebView)
     fitIntoWebView(wkWebView)
     self.wkWebView = wkWebView
+    
+    self.wkWebView.backgroundColor = UIColor.blue
     
     return wkWebView
   }
@@ -63,10 +66,10 @@ extension NativeGame {
 extension NativeGame {
   fileprivate func fitIntoWebView(_ wkWebView: WKWebView) {
     NSLayoutConstraint.activate([
-      wkWebView.topAnchor.constraint(equalTo: webView.topAnchor),
-      wkWebView.bottomAnchor.constraint(equalTo: webView.bottomAnchor),
-      wkWebView.leadingAnchor.constraint(equalTo: webView.leadingAnchor),
-      wkWebView.trailingAnchor.constraint(equalTo: webView.trailingAnchor)
+        wkWebView.topAnchor.constraint(equalTo: self.view.topAnchor),
+        wkWebView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
+        wkWebView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+        wkWebView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
     ])
   }
   
