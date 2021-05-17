@@ -559,25 +559,57 @@
 			path = "Target Support Files/Pods-ODREurobet_Tests";
 			sourceTree = "<group>";
 		};
-		C3DACF5D264D4EEA0046B563 /* Source */ = {
+		C383933426528BDA006F5163 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */,
+				C383932C26525B95006F5163 /* LoadingScreenViewController.xib */,
+				C383933526528BEE006F5163 /* RoundedBar */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		C383933526528BEE006F5163 /* RoundedBar */ = {
+			isa = PBXGroup;
+			children = (
+				C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */,
+				C383932026525239006F5163 /* LoadingBarView.xib */,
+				C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */,
+			);
+			path = RoundedBar;
+			sourceTree = "<group>";
+		};
+		C383933726528C52006F5163 /* GameManager */ = {
 			isa = PBXGroup;
 			children = (
 				C3DACF5E264D4EEA0046B563 /* ZipManager.swift */,
-				C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */,
-				C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */,
 				C3DACF61264D4EEA0046B563 /* ODRManager.swift */,
-				C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */,
-				C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */,
-				C3DACF67264D4EEA0046B563 /* NativeUtils.swift */,
-				C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */,
 				C3DACF6A264D4EEA0046B563 /* GameManager.swift */,
 				C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */,
 				C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */,
+			);
+			path = GameManager;
+			sourceTree = "<group>";
+		};
+		C383933826528D00006F5163 /* NativeGames */ = {
+			isa = PBXGroup;
+			children = (
+				C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */,
+				C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */,
 				C3DACF6E264D4EEB0046B563 /* NativeGame.swift */,
-				C3839331265282F3006F5163 /* Bundle+xib.swift */,
-				C383932026525239006F5163 /* LoadingBarView.xib */,
 				C383931F26525239006F5163 /* NativeGame.xib */,
-				C383932C26525B95006F5163 /* LoadingScreenViewController.xib */,
+			);
+			path = NativeGames;
+			sourceTree = "<group>";
+		};
+		C3DACF5D264D4EEA0046B563 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C383933826528D00006F5163 /* NativeGames */,
+				C383933726528C52006F5163 /* GameManager */,
+				C383933426528BDA006F5163 /* LoadingView */,
+				C3839331265282F3006F5163 /* Bundle+xib.swift */,
+				C3DACF67264D4EEA0046B563 /* NativeUtils.swift */,
 				C383931C265230BC006F5163 /* Assets.xcassets */,
 			);
 			path = Source;
@@ -794,6 +826,11 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					11652,
+					11653,
+					GamesCore,
+				);
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 			};
