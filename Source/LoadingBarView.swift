@@ -22,11 +22,8 @@ class LoadingBarView: UIView {
     
     private func commonInit() {
         // init here
-        
-        let bundle = Bundle(for: GameManager.self)
-        let bundleURL = (bundle.resourceURL?.appendingPathComponent("ODREurobet.bundle"))!
-        
-        let nib = UINib(nibName: "LoadingBarView", bundle: Bundle.init(url: bundleURL))
+                
+        let nib = UINib(nibName: "LoadingBarView", bundle: Bundle().getBundle())
         contentView = nib.instantiate(withOwner: self, options: nil).first as? UIView
         
         addSubview(contentView)

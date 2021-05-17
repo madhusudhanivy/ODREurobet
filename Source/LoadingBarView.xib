@@ -21,7 +21,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="93"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="muH-eL-voV" customClass="RoundedBarView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="muH-eL-voV" customClass="RoundedBarView" customModule="ODREurobet" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="93"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8oB-9f-QOf" customClass="RoundedBarView" customModule="ODREurobet" customModuleProvider="target">
