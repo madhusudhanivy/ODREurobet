@@ -5,27 +5,72 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingScreenViewController" customModule="ODREurobet" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="loadingBar" destination="UMd-JH-9Nh" id="a2w-bk-Zlh"/>
+                <outlet property="view" destination="L9T-jp-0iO" id="QqB-8S-2f8"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="L9T-jp-0iO">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="linkColor"/>
-            <point key="canvasLocation" x="62" y="90"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkg" translatesAutoresizingMaskIntoConstraints="NO" id="Lez-a1-U7T">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbm-li-cUk" userLabel="Wrapper">
+                    <rect key="frame" x="93" y="421.5" width="228" height="53"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eurobet_solid_logo" translatesAutoresizingMaskIntoConstraints="NO" id="grs-7I-QRT">
+                            <rect key="frame" x="0.0" y="0.0" width="228" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="grs-7I-QRT" secondAttribute="height" multiplier="116:15" id="zTK-b4-l8k"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMd-JH-9Nh" customClass="LoadingBarView" customModule="ODREurobet" customModuleProvider="target">
+                            <rect key="frame" x="23" y="45" width="182" height="8"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="Rb8-CF-J8H"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                                    <color key="value" red="0.86274509799999999" green="0.75294117650000003" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="UMd-JH-9Nh" firstAttribute="centerX" secondItem="lbm-li-cUk" secondAttribute="centerX" id="4Mw-Sg-bk9"/>
+                        <constraint firstItem="grs-7I-QRT" firstAttribute="top" secondItem="lbm-li-cUk" secondAttribute="top" id="9ft-oa-vMF"/>
+                        <constraint firstItem="UMd-JH-9Nh" firstAttribute="width" secondItem="lbm-li-cUk" secondAttribute="width" multiplier="0.8" id="Hsy-qz-Pf7"/>
+                        <constraint firstItem="grs-7I-QRT" firstAttribute="leading" secondItem="lbm-li-cUk" secondAttribute="leading" id="Ogc-Vb-dl3"/>
+                        <constraint firstAttribute="trailing" secondItem="grs-7I-QRT" secondAttribute="trailing" id="ZSj-BM-P7A"/>
+                        <constraint firstAttribute="bottom" secondItem="UMd-JH-9Nh" secondAttribute="bottom" id="e7W-91-0Nh"/>
+                        <constraint firstItem="UMd-JH-9Nh" firstAttribute="top" secondItem="grs-7I-QRT" secondAttribute="bottom" constant="16" id="hlE-h4-dpL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="CEb-bD-YxA"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Lez-a1-U7T" firstAttribute="height" secondItem="L9T-jp-0iO" secondAttribute="height" id="507-eZ-A9C"/>
+                <constraint firstItem="lbm-li-cUk" firstAttribute="width" secondItem="L9T-jp-0iO" secondAttribute="width" multiplier="0.55" id="C2e-29-u20"/>
+                <constraint firstItem="Lez-a1-U7T" firstAttribute="width" secondItem="L9T-jp-0iO" secondAttribute="width" id="O7a-LY-lP0"/>
+                <constraint firstItem="Lez-a1-U7T" firstAttribute="centerY" secondItem="L9T-jp-0iO" secondAttribute="centerY" id="gzv-EV-lWo"/>
+                <constraint firstItem="Lez-a1-U7T" firstAttribute="centerX" secondItem="L9T-jp-0iO" secondAttribute="centerX" id="iXm-DD-kIC"/>
+                <constraint firstItem="lbm-li-cUk" firstAttribute="centerY" secondItem="L9T-jp-0iO" secondAttribute="centerY" id="oaV-xB-vqB"/>
+                <constraint firstItem="lbm-li-cUk" firstAttribute="centerX" secondItem="L9T-jp-0iO" secondAttribute="centerX" id="yxK-MV-aLN"/>
+            </constraints>
+            <point key="canvasLocation" x="-778" y="27"/>
         </view>
     </objects>
     <resources>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="bkg" width="320" height="567"/>
+        <image name="eurobet_solid_logo" width="116" height="15"/>
     </resources>
 </document>

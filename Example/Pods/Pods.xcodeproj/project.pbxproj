@@ -70,20 +70,20 @@
 		B83E2BB0B8D03BCE103C4AC2102A3681 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F66D5260178295124E4795E84EF4BE /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC38A0D04D58428E0A152A7A267AD8BC /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF100E616F4100EFB3EC75797AF8BC5 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C383931D265230BC006F5163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C383931C265230BC006F5163 /* Assets.xcassets */; };
+		C383932226525239006F5163 /* NativeGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383931F26525239006F5163 /* NativeGame.xib */; };
+		C383932326525239006F5163 /* LoadingBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383932026525239006F5163 /* LoadingBarView.xib */; };
+		C383932E26525B95006F5163 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383932C26525B95006F5163 /* LoadingScreenViewController.xib */; };
 		C3DACF71264D4EEB0046B563 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5E264D4EEA0046B563 /* ZipManager.swift */; };
 		C3DACF72264D4EEB0046B563 /* NativeGame+PostMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */; };
 		C3DACF73264D4EEB0046B563 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */; };
 		C3DACF74264D4EEB0046B563 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF61264D4EEA0046B563 /* ODRManager.swift */; };
-		C3DACF75264D4EEB0046B563 /* LoadingBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF62264D4EEA0046B563 /* LoadingBarView.xib */; };
 		C3DACF76264D4EEB0046B563 /* NativeGame+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */; };
 		C3DACF77264D4EEB0046B563 /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */; };
 		C3DACF78264D4EEB0046B563 /* NativeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF67264D4EEA0046B563 /* NativeUtils.swift */; };
-		C3DACF79264D4EEB0046B563 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF68264D4EEA0046B563 /* LoadingScreenViewController.xib */; };
 		C3DACF7A264D4EEB0046B563 /* RoundedBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */; };
 		C3DACF7B264D4EEB0046B563 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6A264D4EEA0046B563 /* GameManager.swift */; };
 		C3DACF7C264D4EEB0046B563 /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */; };
 		C3DACF7D264D4EEB0046B563 /* ViewBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */; };
-		C3DACF7E264D4EEB0046B563 /* NativeGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DACF6D264D4EEA0046B563 /* NativeGame.xib */; };
 		C3DACF7F264D4EEB0046B563 /* NativeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF6E264D4EEB0046B563 /* NativeGame.swift */; };
 		C74683BFAC5BD5EA0E8E56F829D39BD4 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = D6CB7484CD8E60964B9CF0EEAD68BCB1 /* mz_strm.c */; };
 		CDD1E311233BEC481F415B45016BBC77 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC95202DC99CCB18F0ED17859223D0E /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -242,20 +242,20 @@
 		BF9B7C5DB0756AB3006FFED02E47155B /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
 		C2A8A7D1C6D5879F890F8795D68B8B12 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C383931C265230BC006F5163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C383931F26525239006F5163 /* NativeGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeGame.xib; sourceTree = "<group>"; };
+		C383932026525239006F5163 /* LoadingBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingBarView.xib; sourceTree = "<group>"; };
+		C383932C26525B95006F5163 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
 		C3DACF5E264D4EEA0046B563 /* ZipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipManager.swift; sourceTree = "<group>"; };
 		C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+PostMessage.swift"; sourceTree = "<group>"; };
 		C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
 		C3DACF61264D4EEA0046B563 /* ODRManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODRManager.swift; sourceTree = "<group>"; };
-		C3DACF62264D4EEA0046B563 /* LoadingBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingBarView.xib; sourceTree = "<group>"; };
 		C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+WebView.swift"; sourceTree = "<group>"; };
 		C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBarView.swift; sourceTree = "<group>"; };
 		C3DACF67264D4EEA0046B563 /* NativeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeUtils.swift; sourceTree = "<group>"; };
-		C3DACF68264D4EEA0046B563 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
 		C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBarView.swift; sourceTree = "<group>"; };
 		C3DACF6A264D4EEA0046B563 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServerManager.swift; sourceTree = "<group>"; };
 		C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBuildManager.swift; sourceTree = "<group>"; };
-		C3DACF6D264D4EEA0046B563 /* NativeGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeGame.xib; sourceTree = "<group>"; };
 		C3DACF6E264D4EEB0046B563 /* NativeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeGame.swift; sourceTree = "<group>"; };
 		C50408F9AFE9E0A7E7D854D1A634A059 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
 		C6450DA1EADB81048261C48A06C9E638 /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
@@ -564,17 +564,17 @@
 				C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */,
 				C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */,
 				C3DACF61264D4EEA0046B563 /* ODRManager.swift */,
-				C3DACF62264D4EEA0046B563 /* LoadingBarView.xib */,
 				C3DACF64264D4EEA0046B563 /* NativeGame+WebView.swift */,
 				C3DACF66264D4EEA0046B563 /* LoadingBarView.swift */,
 				C3DACF67264D4EEA0046B563 /* NativeUtils.swift */,
-				C3DACF68264D4EEA0046B563 /* LoadingScreenViewController.xib */,
 				C3DACF69264D4EEA0046B563 /* RoundedBarView.swift */,
 				C3DACF6A264D4EEA0046B563 /* GameManager.swift */,
 				C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */,
 				C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */,
-				C3DACF6D264D4EEA0046B563 /* NativeGame.xib */,
 				C3DACF6E264D4EEB0046B563 /* NativeGame.swift */,
+				C383932026525239006F5163 /* LoadingBarView.xib */,
+				C383931F26525239006F5163 /* NativeGame.xib */,
+				C383932C26525B95006F5163 /* LoadingScreenViewController.xib */,
 				C383931C265230BC006F5163 /* Assets.xcassets */,
 			);
 			path = Source;
@@ -835,10 +835,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DACF79264D4EEB0046B563 /* LoadingScreenViewController.xib in Resources */,
-				C3DACF7E264D4EEB0046B563 /* NativeGame.xib in Resources */,
+				C383932226525239006F5163 /* NativeGame.xib in Resources */,
+				C383932E26525B95006F5163 /* LoadingScreenViewController.xib in Resources */,
 				C383931D265230BC006F5163 /* Assets.xcassets in Resources */,
-				C3DACF75264D4EEB0046B563 /* LoadingBarView.xib in Resources */,
+				C383932326525239006F5163 /* LoadingBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

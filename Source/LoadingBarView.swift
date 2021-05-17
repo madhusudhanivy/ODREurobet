@@ -14,21 +14,27 @@ class LoadingBarView: UIView {
         super.init(frame: frame)
         commonInit()
     }
-
+    
     required init?(coder aDecoder: NSCoder) { // Custom View IB
         super.init(coder: aDecoder)
         commonInit()
     }
-
+    
     private func commonInit() {
         // init here
-        Bundle.main.loadNibNamed("LoadingBarView", owner: self, options: nil)
+        
+        let bundle = Bundle(for: GameManager.self)
+        let bundleURL = (bundle.resourceURL?.appendingPathComponent("ODREurobet.bundle"))!
+        
+        let nib = UINib(nibName: "LoadingBarView", bundle: Bundle.init(url: bundleURL))
+        contentView = nib.instantiate(withOwner: self, options: nil).first as? UIView
+        
         addSubview(contentView)
         contentView.frame = bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
     }
-
-
+    
+    
     // MARK: - Outlets
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var frontBar: RoundedBarView!
@@ -41,11 +47,11 @@ class LoadingBarView: UIView {
     // MARK: - Properties
     var percentage :Double = 100 {
         didSet {
-          DispatchQueue.main.async {
-            let width = self.backBar.frame.size.width * CGFloat(self.percentage / 100.0)
-            self.fractionCompletedWidth.constant = width
-            self.updateConstraints()
-          }
+            DispatchQueue.main.async {
+                let width = self.backBar.frame.size.width * CGFloat(self.percentage / 100.0)
+                self.fractionCompletedWidth.constant = width
+                self.updateConstraints()
+            }
         }
     }
     
@@ -57,21 +63,21 @@ class LoadingBarView: UIView {
             backBar.layer.borderWidth = 1
         }
     }
-  
-  
-  private var observation: NSKeyValueObservation? = nil
-  var progress :Progress = Progress() {
-    didSet {
-      observation = progress.observe(\.fractionCompleted, options: [.new]) { _, _ in
-        self.percentage = self.progress.fractionCompleted * 100
-      }
+    
+    
+    private var observation: NSKeyValueObservation? = nil
+    var progress :Progress = Progress() {
+        didSet {
+            observation = progress.observe(\.fractionCompleted, options: [.new]) { _, _ in
+                self.percentage = self.progress.fractionCompleted * 100
+            }
+        }
     }
-  }
-  
-  
-  // MARK: - Utils
-  deinit {
-    observation = nil
-  }
-  
+    
+    
+    // MARK: - Utils
+    deinit {
+        observation = nil
+    }
+    
 }

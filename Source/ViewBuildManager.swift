@@ -16,7 +16,10 @@ public class ViewBuildManager {
   
   // MARK: - Methods
   public func loading() -> LoadingScreenViewController {
-    let vc = LoadingScreenViewController()
+    
+    let bundle = Bundle(for: GameManager.self)
+    let bundleURL = (bundle.resourceURL?.appendingPathComponent("ODREurobet.bundle"))!
+    let vc = LoadingScreenViewController(nibName: "LoadingScreenViewController", bundle: Bundle.init(url: bundleURL))
     vc.modalPresentationStyle = .fullScreen
     return vc
   }
@@ -24,7 +27,9 @@ public class ViewBuildManager {
 
 extension ViewBuildManager {
   public func gameEmbeddedVegas() -> NativeGame {
-    let vc = NativeGame()
+    let bundle = Bundle(for: GameManager.self)
+    let bundleURL = (bundle.resourceURL?.appendingPathComponent("ODREurobet.bundle"))!
+    let vc = NativeGame(nibName: "NativeGame", bundle: Bundle.init(url: bundleURL))
     vc.modalPresentationStyle = .fullScreen
     return vc
   }

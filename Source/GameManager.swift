@@ -10,11 +10,11 @@ import Foundation
 public typealias ThrowableCallback<T> = (() throws -> (T)) -> Void
 
 public class GameManager: NSObject {
-  
+    
     enum CustomErrors: Error {
-      case genericError
-      case networkError
-      case notFoundError
+        case genericError
+        case networkError
+        case notFoundError
     }
     
     public typealias RCTTempResponseSenderBlock = (NSArray?) -> Void
@@ -22,53 +22,53 @@ public class GameManager: NSObject {
     public typealias RCTTempPromiseResolveBlock = (Any?) -> Void
     public typealias RCTTempPromiseRejectBlock = (String?, String?, Error?) -> Void
     
-  // MARK: - Singleton
-  public static var shared = GameManager()
-  override private init() {
-    super.init()
-  }
-  
-  
-  // MARK: - Properties
-  var odr = ODRManager.shared
-  var zip = ZipManager.shared
-  var web = WebServerManager.shared
-  
+    // MARK: - Singleton
+    public static var shared = GameManager()
+    override private init() {
+        super.init()
+    }
+    
+    
+    // MARK: - Properties
+    var odr = ODRManager.shared
+    var zip = ZipManager.shared
+    var web = WebServerManager.shared
+    
     public var currentGame: String?
     public var webServerIndexFile: String? {didSet{web.webServerIndexFile=webServerIndexFile}}
     public var webServerPort: UInt? {didSet{web.port=webServerPort ?? 8080}}
     public var queryString: String?
     public var isForReal: Bool?
-  
+    
     public var rctResolver: RCTTempPromiseResolveBlock?
-  public var rctRejecter: RCTTempPromiseRejectBlock?
-  
-  
-  // MARK: - Methods
-  public func requestUnzippedResource(_ tag: String, resolver: @escaping ThrowableCallback<String>) {
+    public var rctRejecter: RCTTempPromiseRejectBlock?
     
-    // check if resource is already unzipped
-    if let resourceUnzippedPath = zip.resourceExists(tag) {
-      resolver({ return resourceUnzippedPath })
-      return
+    
+    // MARK: - Methods
+    public func requestUnzippedResource(_ tag: String, resolver: @escaping ThrowableCallback<String>) {
+        
+        // check if resource is already unzipped
+        if let resourceUnzippedPath = zip.resourceExists(tag) {
+            resolver({ return resourceUnzippedPath })
+            return
+        }
+        
+        // Request resource with odr
+        odr.requestResourceWith(tag) { zipPathThrowable in
+            if let zipPath = try? zipPathThrowable() {
+                self.zip.extractGame(zipPath, resolver: resolver)
+                return
+            }
+            
+            resolver({ throw GameManager.CustomErrors.genericError })
+        }
     }
     
-    // Request resource with odr
-    odr.requestResourceWith(tag) { zipPathThrowable in
-      if let zipPath = try? zipPathThrowable() {
-        self.zip.extractGame(zipPath, resolver: resolver)
-        return
-      }
-      
-      resolver({ throw GameManager.CustomErrors.genericError })
+    
+    func getCurrentGameUrl() -> String? {
+        guard let _ = currentGame, let _ = webServerPort, let gameLaunchUrl = queryString else { return nil }
+        return gameLaunchUrl
     }
-  }
-  
-  
-  func getCurrentGameUrl() -> String? {
-    guard let _ = currentGame, let _ = webServerPort, let gameLaunchUrl = queryString else { return nil }
-    return gameLaunchUrl
-  }
 }
 
 
