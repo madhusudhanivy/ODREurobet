@@ -589,7 +589,6 @@
 				C3DACF6A264D4EEA0046B563 /* GameManager.swift */,
 				C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */,
 				C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */,
-				C383936B26539B27006F5163 /* EmbededCommunicatorManager.swift */,
 			);
 			path = GameManager;
 			sourceTree = "<group>";
@@ -613,6 +612,7 @@
 				C383933426528BDA006F5163 /* LoadingView */,
 				C3839331265282F3006F5163 /* Bundle+xib.swift */,
 				C3DACF67264D4EEA0046B563 /* NativeUtils.swift */,
+				C383936B26539B27006F5163 /* EmbededCommunicatorManager.swift */,
 				C383931C265230BC006F5163 /* Assets.xcassets */,
 			);
 			path = Source;
