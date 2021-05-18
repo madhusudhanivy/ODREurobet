@@ -9,6 +9,11 @@ import Foundation
 
 public typealias ThrowableCallback<T> = (() throws -> (T)) -> Void
 
+public typealias RCTTempResponseSenderBlock = (NSArray?) -> Void
+public typealias RCTTempResponseErrorBlock = (NSError?) -> Void
+public typealias RCTTempPromiseResolveBlock = (Any?) -> Void
+public typealias RCTTempPromiseRejectBlock = (String?, String?, Error?) -> Void
+
 public class GameManager: NSObject {
     
     enum CustomErrors: Error {
@@ -16,12 +21,7 @@ public class GameManager: NSObject {
         case networkError
         case notFoundError
     }
-    
-    public typealias RCTTempResponseSenderBlock = (NSArray?) -> Void
-    public typealias RCTTempResponseErrorBlock = (NSError?) -> Void
-    public typealias RCTTempPromiseResolveBlock = (Any?) -> Void
-    public typealias RCTTempPromiseRejectBlock = (String?, String?, Error?) -> Void
-    
+        
     // MARK: - Singleton
     public static var shared = GameManager()
     override private init() {

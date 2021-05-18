@@ -74,6 +74,7 @@
 		C383932326525239006F5163 /* LoadingBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383932026525239006F5163 /* LoadingBarView.xib */; };
 		C383932E26525B95006F5163 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383932C26525B95006F5163 /* LoadingScreenViewController.xib */; };
 		C3839332265282F3006F5163 /* Bundle+xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3839331265282F3006F5163 /* Bundle+xib.swift */; };
+		C383936C26539B27006F5163 /* EmbededCommunicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383936B26539B27006F5163 /* EmbededCommunicatorManager.swift */; };
 		C3DACF71264D4EEB0046B563 /* ZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5E264D4EEA0046B563 /* ZipManager.swift */; };
 		C3DACF72264D4EEB0046B563 /* NativeGame+PostMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */; };
 		C3DACF73264D4EEB0046B563 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */; };
@@ -247,6 +248,7 @@
 		C383932026525239006F5163 /* LoadingBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingBarView.xib; sourceTree = "<group>"; };
 		C383932C26525B95006F5163 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
 		C3839331265282F3006F5163 /* Bundle+xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+xib.swift"; sourceTree = "<group>"; };
+		C383936B26539B27006F5163 /* EmbededCommunicatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbededCommunicatorManager.swift; sourceTree = "<group>"; };
 		C3DACF5E264D4EEA0046B563 /* ZipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipManager.swift; sourceTree = "<group>"; };
 		C3DACF5F264D4EEA0046B563 /* NativeGame+PostMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeGame+PostMessage.swift"; sourceTree = "<group>"; };
 		C3DACF60264D4EEA0046B563 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
@@ -587,6 +589,7 @@
 				C3DACF6A264D4EEA0046B563 /* GameManager.swift */,
 				C3DACF6B264D4EEA0046B563 /* WebServerManager.swift */,
 				C3DACF6C264D4EEA0046B563 /* ViewBuildManager.swift */,
+				C383936B26539B27006F5163 /* EmbededCommunicatorManager.swift */,
 			);
 			path = GameManager;
 			sourceTree = "<group>";
@@ -962,6 +965,7 @@
 				C3839332265282F3006F5163 /* Bundle+xib.swift in Sources */,
 				C3DACF7C264D4EEB0046B563 /* WebServerManager.swift in Sources */,
 				C3DACF7F264D4EEB0046B563 /* NativeGame.swift in Sources */,
+				C383936C26539B27006F5163 /* EmbededCommunicatorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
