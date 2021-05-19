@@ -7,27 +7,12 @@
 //
 
 import UIKit
-import ODREurobet
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        let viewBuildManager = ViewBuildManager.shared
-        let vc = viewBuildManager.loading()
-
-        DispatchQueue.main.async {
-//          vc.loadingDidFinish = {
-//            DispatchQueue.main.async {
-//              NativeUtils.presentNative(viewBuildManager.gameEmbeddedVegas(), from: vc)
-//            }
-//          }
-          NativeUtils.presentNative(vc)
-        }
-        
-        
     }
 
     override func didReceiveMemoryWarning() {

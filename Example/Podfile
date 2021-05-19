@@ -7,7 +7,6 @@ target 'ODREurobet_Example' do
 
   pod 'SSZipArchive'
   pod 'GCDWebServer', '3.5.3'
-#  pod 'React-Core', :path => '../node_modules/react-native/'
   
   target 'ODREurobet_Tests' do
     inherit! :search_paths
